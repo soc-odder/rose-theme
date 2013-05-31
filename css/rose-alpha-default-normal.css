@@ -335,12 +335,14 @@ body {
 	margin-left:165px;
 	margin-top:0px;
 }
+/*
 .kalender {
 	border-radius:8px;
 	background:#d9d9d9;
 	height:220px;
 	padding:0 20px;
 }
+*/
 .kalender2 {
 	border-radius:8px;
 	background:#d9d9d9;
@@ -349,6 +351,7 @@ body {
 	margin-left:165px;
 	margin-top:27px;
 }
+/*
 .caption {
 	font: bold 15px/25px Calibri;
 	color:#b40014;
@@ -359,12 +362,14 @@ body {
 	font:italic 12px/20px Calibri;
 	color:#000000;
 }
+*/
 .deltager {
 	font:normal 12px/15px Calibri;
 	color:#000000;
 	padding:8px 0;
 	width:200px;
 }
+/*
 .delta li {
 	font:normal 12px/15px Calibri;
 	color:#000000;
@@ -413,10 +418,10 @@ body {
 	background:#ffffff;
 	border:1px solid #b1b1b1;
 }
-
+*/
 /* next_tips.css */
 
-@charset "utf-8";
+/* @charset "utf-8"; */
 /* CSS Document */
 
 .gatil {
