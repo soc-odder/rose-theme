@@ -203,9 +203,7 @@ body {
 	background:#b40013;
 	text-transform:uppercase;
 }
-h2.block-title {
-    font-size: 17px;
-}
+
 .container_center {
 	float:left;
 	display:block;
@@ -218,7 +216,7 @@ h2.block-title {
 	padding:15px 0 10px 0;
 }
 .plan {
-	font:bold 13px/15px Calibri;
+	font:bold 16px/18px Calibri;
 	color:#b40014;
 	margin-bottom:5px;
 	text-transform:uppercase;
@@ -228,7 +226,7 @@ h2.block-title {
 	color:#000000;
 }
 .project {
-	font:normal 12px/15px Calibri;
+	font:normal 14px/17px Calibri;
 	color:#000000;
 	margin-top:10px;
 	margin-bottom:5px;
