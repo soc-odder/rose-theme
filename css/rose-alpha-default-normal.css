@@ -111,7 +111,7 @@ body {
 .nav li {
 	float:left;
 	display:block;
-	font:bold 15px/40px Calibri;
+	font:bold 15px/40px;
 	padding:0 34px;
 	background:url(../images/nav_border.jpg) no-repeat right center;
 	text-transform:uppercase;
