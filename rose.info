@@ -1,5 +1,5 @@
 name = 'rose'
-description = ''
+description = 'Omega subtheme'
 core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
