@@ -900,7 +900,8 @@ ul.inline li {
 	left:160px;
 }
 */
-/* Kandidat Fix css */
+/* KandidatFixCss */
+/*
 .place_text {
 	float:right;
 	margin-right: -30px;
@@ -970,6 +971,7 @@ ul.inline li {
 	list-style:disc outside;
 	margin:0 0 6px 0;
 }
+
 .ole_title {
 	font:bold 15px/60px Calibri;
 	color:#b40014;
@@ -986,18 +988,21 @@ ul.inline li {
 	color:#b40014;
 	text-transform:uppercase;
 }
+*/
 .ole_info p {
 	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 50px 0 0;
 	height:240px;
 }
+/*
 .views-row-1 {
 	width:380px;
 }
 .personlig {
 	width:260px;
 }
+*/
 .field-name-field-politisk-titel {
 	font:bold 15px/60px Calibri;
 	color:#b40014;
@@ -1005,21 +1010,25 @@ ul.inline li {
 	padding-left: 70px;
 	margin-left:0px;
 }
+/*
 .field-name-field-my-focus {
 	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 50px 15px 0;
 	width:640px;
 }
+*/
 .field-name-field-my-focus p {
 	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 50px 15px 70px;
 	width:640px;
 }
+/*
 .social {
 	float: left;
 	font: 11px Calibri;
 	padding: 13px 0 0;
 	margin-top:165px;
 }
+*/
