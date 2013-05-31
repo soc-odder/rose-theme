@@ -5,9 +5,9 @@
  
 /* base.css */
 
-/* @charset "utf-8"; */
+@charset "utf-8";
 /* CSS Document */
-/*
+
 * {
 	border:0;
 	margin:0;
@@ -40,13 +40,10 @@ body {
 	width:940px;
 	margin:0 auto;
 }
-*/
 /*header*/
-/*
 .header {
 	height:103px;
 }
-*/
 .logo-img {
 	width:490px;
 	height:70px;
@@ -55,7 +52,6 @@ body {
 	display:block;
 	padding-top: 25px;
 }
-/*
 .header_right {
 	float:left;
 	display:block;
@@ -106,7 +102,6 @@ body {
 	background:#9c9b9b;
 	margin-top:-22px;
 }
-*/
 /*nav*/
 .nav {
 	width:950px;
@@ -114,7 +109,6 @@ body {
 	border-radius:8px;
 	background:#b40013;
 }
-/*
 .nav li {
 	float:left;
 	display:block;
@@ -131,19 +125,17 @@ body {
 .nav .no_bg {
 	background:none;
 }
-*/
 /*footer*/
 .footer {
 	background:#d9d9d9;
 	height:45px;
 	padding:10px 0 0 0;
-	font:bold 11px/18px;
+	font:bold 11px/18px Calibri;
 	color:#000000;
 	text-align:center;
 	margin:30px 0 0 0;
 	width:940px;
 }
-/*
 .footer p {
 	font:bold 11px/18px Calibri;
 	color:#000000;
@@ -155,10 +147,10 @@ body {
 .footer span {
 	font-weight:normal;
 }
-*/
+
 /* module.css */
 
-/* @charset "utf-8"; */
+@charset "utf-8";
 /* CSS Document */
 
 .sidebar_img {
@@ -182,7 +174,6 @@ body {
 	color:#222221;
 	padding-left:35px;
 }
-
 .ipsum {
 	font:bold 15px/40px Calibri;
 	width:200px;
@@ -196,7 +187,6 @@ body {
 	margin-top:200px;
 	margin-left:598px;
 }
-/*
 .container {
 	float:left;
 	display:block;
@@ -322,7 +312,6 @@ body {
 	margin-top:2px;
 	width:90px;
 }
-*/
 .midblock{
 	width:360px;
 	margin-left:150px;
@@ -337,14 +326,12 @@ body {
 	margin-left:285px;
 	margin-top:0px;
 }
-/*
 .kalender {
 	border-radius:8px;
 	background:#d9d9d9;
 	height:220px;
 	padding:0 20px;
 }
-*/
 .kalender2 {
 	border-radius:8px;
 	background:#d9d9d9;
@@ -353,7 +340,6 @@ body {
 	padding:0 20px;
 	margin-left:285px;
 }
-/*
 .caption {
 	font: bold 15px/25px Calibri;
 	color:#b40014;
@@ -364,13 +350,11 @@ body {
 	font:italic 12px/20px Calibri;
 	color:#000000;
 }
-*/
 .deltager {
 	font:normal 12px/15px Calibri;
 	color:#000000;
 	padding:8px 0;
 }
-/*
 .delta li {
 	font:normal 12px/15px Calibri;
 	color:#000000;
@@ -419,13 +403,12 @@ body {
 	background:#ffffff;
 	border:1px solid #b1b1b1;
 }
-*/
 
 /* next_tips.css */
 
-*/ @charset "utf-8"; */
+@charset "utf-8";
 /* CSS Document */
-/*
+
 .gatil {
 	font:normal 12px Calibri;
 	padding:50px 0 0 0;
@@ -638,13 +621,12 @@ body {
 .givemig input {
 	margin:0 5px 0 0;
 }
-*/
 
 /* themes.css */
 
-/* @charset "utf-8"; */
+@charset "utf-8";
 /* CSS Document */
-/*
+
 .municipal .col-1 {
 	float:left;
 	display:block;
@@ -667,7 +649,6 @@ body {
 	border-radius:8px;
 	background:#aaaaaa;
 }
-*/
 .banner {
 	height:245px;
 	background:url(../images/banner_bg.jpg) repeat-y;
@@ -675,7 +656,6 @@ body {
 	padding-bottom:20px;
 	margin-bottom:30px;
 }
-/*
 .banner_title_font {
 	height:35px;
 	background:url(../images/banner_bg.jpg) repeat-y;
@@ -747,7 +727,6 @@ body {
 	font:bold 15px/60px Calibri;
 	color:#b40014;
 }
-*/
 .ole_info p {
 	font:normal 11px/14px Calibri;
 	color:#000000;
@@ -755,7 +734,6 @@ body {
 	height:240px;
 	width:265px;
 }
-/*
 .jeq {
 	float:left;
 	display:block;
@@ -884,7 +862,6 @@ body {
 	float:right;
 	margin: 5px 10px;
 }
-/*
 .search_pos {
 	float:right;
 	position:absolute;
@@ -902,14 +879,12 @@ ul.inline li {
     padding: 0 1.49em;
 }
 /* KandidatFixCss */
-
 .place_text {
 	float:right;
 	margin-right: -170px;
 	margin-top: -340px;
 	width:230px;
 }
-/*
 .place_text p {
 	float:right;
 	margin-right: 205px;
@@ -921,7 +896,6 @@ ul.inline li {
 	margin-right: 95px;
 	margin-top: -340px;
 }
-*/
 .place_text2 {
 	float:right;
 	margin-top: -275px;
@@ -933,11 +907,9 @@ ul.inline li {
 	margin-right: 115px;
 	width:560px;
 }
-/*
 .place_text2 span {
 	float:right;
 }
-*/
 .banner_bis {
 	height:245px;
 	background:url(../images/banner_bg.jpg) repeat-y;
@@ -956,7 +928,6 @@ ul.inline li {
 	float:right;
 	text-transform:uppercase;
 }
-/*
 .kanlaumain span {
 	font:bold 15px Calibri;
 	color:#b40013;
@@ -977,14 +948,12 @@ ul.inline li {
 	list-style:disc outside;
 	margin:0 0 6px 0;
 }
-*/
 .ole_title {
 	font:bold 15px/60px Calibri;
 	color:#b40014;
 	text-transform:uppercase;
 	padding-left:70px;
 }
-/*
 .ole_info {
 	font:normal 11px/14px Calibri;
 	color:#000000;
@@ -996,7 +965,6 @@ ul.inline li {
 	color:#b40014;
 	text-transform:uppercase;
 }
-*/
 .ole_info p {
 	font:normal 11px/14px Calibri;
 	color:#000000;
@@ -1004,14 +972,12 @@ ul.inline li {
 	height:240px;
 	width:200px;
 }
-/*
 .views-row-1 {
 	width:380px;
 }
 .personlig {
 	width:260px;
 }
-*/
 .field-name-field-politisk-titel {
 	font:bold 15px/60px Calibri;
 	color:#b40014;
@@ -1030,11 +996,9 @@ ul.inline li {
 	padding:0 50px 15px 0;
 	width:640px;
 }
-/*
 .social {
 	float: left;
 	font: 11px Calibri;
 	padding: 13px 0 0;
 	margin-top:165px;
 }
-*/
