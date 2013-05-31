@@ -2,9 +2,10 @@
 
 /* base.css */
 
-@charset "utf-8";
+/* @charset "utf-8"; */
 /* CSS Document */
 
+/*
 * {
 	border:0;
 	margin:0;
@@ -37,7 +38,9 @@ body {
 	width:940px;
 	margin:0 auto;
 }
+*/
 /*header*/
+/*
 .header {
 	height:103px;
 }
@@ -99,7 +102,9 @@ body {
 	background:#9c9b9b;
 	margin-top:-22px;
 }
+*/
 /*nav*/
+/*
 .nav {
 	width:960px;
 	height:40px;
@@ -122,6 +127,7 @@ body {
 .nav .no_bg {
 	background:none;
 }
+*/
 /*footer*/
 .footer {
 	background:#d9d9d9;
@@ -132,6 +138,7 @@ body {
 	text-align:center;
 	margin:30px 0 0 0;
 }
+/*
 .footer p {
 	font:bold 11px/18px Calibri;
 	color:#000000;
@@ -143,10 +150,11 @@ body {
 .footer span {
 	font-weight:normal;
 }
+*/
 
 /* module.css */
 
-@charset "utf-8";
+/* @charset "utf-8"; */
 /* CSS Document */
 
 .sidebar_img {
@@ -170,10 +178,12 @@ body {
 	color:#222221;
 	padding:85px 0 0 0;
 }
+/*
 .ipsum {
 	font:bold 15px/40px Calibri;
 	width:200px;
 }
+*/
 .ipsum a {
 	color:#b40014;
 	text-decoration:none;
@@ -182,6 +192,7 @@ body {
 	margin-top:200px;
 	margin-left:585px;
 }
+/*
 .container {
 	float:left;
 	display:block;
@@ -307,6 +318,7 @@ body {
 	margin-top:2px;
 	width:90px;
 }
+*/
 .midblock{
 	margin-left:40px;
 	width:360px;
@@ -320,12 +332,14 @@ body {
 	display:block;
 	margin-left:20px;
 }
+/*
 .kalender {
 	border-radius:8px;
 	background:#d9d9d9;
 	height:220px;
 	padding:0 20px;
 }
+*/
 .kalender2 {
 	border-radius:8px;
 	background:#d9d9d9;
@@ -334,6 +348,7 @@ body {
 	margin:27px 0 0 0;
 	margin-left:20px;
 }
+/*
 .caption {
 	font: bold 15px/25px Calibri;
 	color:#b40014;
@@ -344,11 +359,13 @@ body {
 	font:italic 12px/20px Calibri;
 	color:#000000;
 }
+*/
 .deltager {
 	font:normal 12px/15px Calibri;
 	color:#000000;
 	padding:8px 0;
 }
+/*
 .delta li {
 	font:normal 12px/15px Calibri;
 	color:#000000;
@@ -397,12 +414,13 @@ body {
 	background:#ffffff;
 	border:1px solid #b1b1b1;
 }
+*/
 
 /* next_tips.css */
 
-@charset "utf-8";
+/* @charset "utf-8"; */
 /* CSS Document */
-
+/*
 .gatil {
 	font:normal 12px Calibri;
 	padding:50px 0 0 0;
@@ -615,12 +633,13 @@ body {
 .givemig input {
 	margin:0 5px 0 0;
 }
+*/
 
 /* themes.css */
 
-@charset "utf-8";
+/* @charset "utf-8"; */
 /* CSS Document */
-
+/*
 .municipal .col-1 {
 	float:left;
 	display:block;
@@ -643,6 +662,7 @@ body {
 	border-radius:8px;
 	background:#aaaaaa;
 }
+*/
 .banner {
 	height:245px;
 	background:url(../images/banner_bg.jpg) repeat-y;
@@ -656,7 +676,8 @@ body {
 	width:960px;
 	padding:25px 0 0 0;
 }
-.bannernew {
+/*
+.banner_new {
 	height:245px;
 	width:940px;
 }
@@ -831,6 +852,7 @@ ul.inline li {
     list-style-type: none;
     padding: 0 1.55em;
 }
+*/
 .region-user-first {
 	width:690px;
 }
@@ -854,6 +876,7 @@ ul.inline li {
 	margin-top: -340px;
 	width:230px;
 }
+/*
 .place_text p {
 	float:right;
 	margin-right: 205px;
@@ -871,11 +894,13 @@ ul.inline li {
 	margin-right: -455px;
 	width:560px;
 }
+/*
 .place_text2 p {
 	float:right;
 	margin-right: 115px;
 	width:560px;
 }
+/*
 .place_text2 span {
 	float:right;
 }
@@ -887,6 +912,7 @@ ul.inline li {
 	margin-bottom:30px;
 	margin-top: -2px;
 }
+*/
 .kanlaumain {
 	font:bold 15px Calibri;
 	color:#b40013;
@@ -897,6 +923,7 @@ ul.inline li {
 	float:right;
 	text-transform:uppercase;
 }
+/*
 .kanlaumain span {
 	font:bold 15px Calibri;
 	color:#b40013;
@@ -917,6 +944,7 @@ ul.inline li {
 	list-style:disc outside;
 	margin:0 0 6px 0;
 }
+*/
 .link_sign {
 	padding:13px 0 0 0;
 	font:normal 11px Calibri;
@@ -929,22 +957,26 @@ ul.inline li {
 	padding:0 7px 0 0;
 	margin-left:70px;
 }
+/*
 .ole_title {
 	font:bold 15px/60px Calibri;
 	color:#b40014;
 	text-transform:uppercase;
 }
+*/
 .ole_info {
 	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 50px 0 70px;
 	height:240px;
 }
+/*
 .ole_title span {
 	font:bold 15px/60px Calibri;
 	color:#b40014;
 	text-transform:uppercase;
 }
+*/
 .ole_info p {
 	font:normal 11px/14px Calibri;
 	color:#000000;
@@ -952,12 +984,14 @@ ul.inline li {
 	height:240px;
 	margin-left:0px;
 }
+/*
 .views-row-1 {
 	width:380px;
 }
 .personlig {
 	width:260px;
 }
+*/
 .field-name-field-politisk-titel {
 	font:bold 15px/60px Calibri;
 	color:#b40014;
@@ -977,9 +1011,11 @@ ul.inline li {
 	padding:0 0 15px 0;
 	width:640px;
 }
+/*
 .social {
 	float: left;
 	font: 11px Calibri;
 	padding: 13px 0 0;
 	margin-top:165px;
 }
+*/
