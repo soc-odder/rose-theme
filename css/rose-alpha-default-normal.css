@@ -672,6 +672,7 @@ body {
 	padding-bottom:20px;
 	margin-bottom:30px;
 }
+/*
 .banner_title_font {
 	height:35px;
 	background:url(../images/banner_bg.jpg) repeat-y;
@@ -743,6 +744,7 @@ body {
 	font:bold 15px/60px Calibri;
 	color:#b40014;
 }
+*/
 .ole_info p {
 	font:normal 11px/14px Calibri;
 	color:#000000;
@@ -750,6 +752,7 @@ body {
 	height:240px;
 	margin-left:70px;
 }
+/*
 .jeq {
 	float:left;
 	display:block;
@@ -878,6 +881,7 @@ body {
 	float:right;
 	margin: 5px 10px;
 }
+*/
 ul.inline li {
     display: inline;
     list-style-type: none;
@@ -889,11 +893,13 @@ ul.inline li {
 	left:730px;
 	padding-top: 25px;
 }
+/*
 .search_pos2 {
 	float:right;
 	position:absolute;
 	left:160px;
 }
+*/
 /* Kandidat Fix css */
 .place_text {
 	float:right;
