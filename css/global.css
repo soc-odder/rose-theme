@@ -219,7 +219,7 @@ body {
 	font:bold 16px/18px Calibri;
 	color:#b40014;
 	margin-bottom:5px;
-	text-transform:uppercase;
+	text-transform:none;
 }
 .timer {
 	font:italic 11px/25px Calibri;

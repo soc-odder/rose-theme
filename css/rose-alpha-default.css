@@ -199,11 +199,13 @@ body {
 	position:relative;
 	padding:15px 0 10px 0;
 }
+/*
 .plan {
 	color:#b40014;
 	margin-bottom:5px;
 	text-transform:uppercase;
 }
+*/
 .timer {
 	color:#000000;
 }
