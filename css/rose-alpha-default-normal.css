@@ -423,7 +423,7 @@ body {
 
 /* @charset "utf-8"; */
 /* CSS Document */
-
+/*
 .gatil {
 	font:normal 12px Calibri;
 	padding:50px 0 0 0;
@@ -636,12 +636,12 @@ body {
 .givemig input {
 	margin:0 5px 0 0;
 }
-
+*/
 /* themes.css */
 
-@charset "utf-8";
+/* @charset "utf-8"; */
 /* CSS Document */
-
+/*
 .municipal .col-1 {
 	float:left;
 	display:block;
@@ -664,6 +664,7 @@ body {
 	border-radius:8px;
 	background:#aaaaaa;
 }
+*/
 .banner {
 	height:245px;
 	background:url(../images/banner_bg.jpg) repeat-y;
