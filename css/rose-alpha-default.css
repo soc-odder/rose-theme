@@ -3,7 +3,6 @@
 /* base.css */
 
 @charset "utf-8";
-/* CSS Document */
 
 /* module.css */
 
@@ -14,12 +13,16 @@
 	padding:0 0 0 22px;
 	margin-right:-228px;
 }
+
 .ipsum a {
 	margin-left:525px;
+}
+
 .teamlist {
 	width:90px;
 	margin:10px 0 0 0;
 }
+
 .kalender2 {
 	margin:27px 0 0 0;
 }
@@ -30,6 +33,7 @@
 	font:normal 12px/20px givemig;
 	color:#000;
 }
+
 .givemig input {
 	margin:0 5px 0 0;
 }
@@ -39,41 +43,54 @@
 .banner_title_font {
 	padding:25px 0 0 0;
 }
+
 .ole_info p {
 	padding:0 50px 0 0;
 	height:240px;
 }
+
 .search_pos {
 	left:560px;
 }
+
 .search_pos2 {
 	left:160px;
 }
+
 /* KandidatFixCss */
+
 .place_text {
 	margin-right: -30px;
 }
+
 .place_text2 {
 	margin-right: -455px;
 }
+
 .place_text2 p {
 	margin-right: -5px;
 }
+
 .banner_bis {
 	margin-top: -2px;
 }
+
 .ole_info p {
 	padding:0 50px 0px 0;
 }
+
 .views-row-1 {
 	width:380px;
 }
+
 .personlig {
 	width:260px;
 }
+
 .field-name-field-my-focus {
 	width:640px;
 }
+
 .field-name-field-my-focus p {
 	width:640px;
 }
