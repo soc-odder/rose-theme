@@ -14,8 +14,6 @@ body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div
 	margin:0;
 	padding:0;
 	border:0;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
 	-webkit-text-size-adjust:none;
 }
 ul, ol {
@@ -55,7 +53,6 @@ body {
 	width:220px;
 }
 .contact {
-	font:normal 8px/22px Arial, Helvetica, sans-serif;
 	height:33px;
 }
 .contact a {
@@ -79,7 +76,6 @@ body {
 	margin:5px 0 0 0;
 }
 .search span input {
-	font:normal 11px/15px Arial, Helvetica, sans-serif;
 	color:#9C9B9B;
 	width:185px;
 	outline:none;
@@ -93,7 +89,6 @@ body {
 	float:right;
 	border-radius:0 8px 8px 0;
 	display:block;
-	font:normal 10px/25px Calibri;
 	color:#ffffff;
 	text-align:center;
 	background:#9c9b9b;
@@ -109,7 +104,6 @@ body {
 .nav li {
 	float:left;
 	display:block;
-	font:bold 15px/40px;
 	padding:0 34px;
 	background:url(../images/nav_border.jpg) no-repeat right center;
 	text-transform:uppercase;
@@ -127,13 +121,11 @@ body {
 	background:#d9d9d9;
 	height:45px;
 	padding:10px 0 0 0;
-	font:bold 11px/18px Calibri;
 	color:#000000;
 	text-align:center;
 	margin:30px 0 0 0;
 }
 .footer p {
-	font:bold 11px/18px Calibri;
 	color:#000000;
 	text-align:center;
 }
@@ -166,11 +158,9 @@ body {
 	margin-bottom:40px;
 }
 .sidetext {
-	font:normal 12px/15px Calibri;
 	color:#222221;
 }
 .ipsum {
-	font:bold 15px/40px Calibri;
 	width:200px;
 }
 .ipsum a {
@@ -188,12 +178,10 @@ body {
 	margin:27px 20px 0 0;
 }
 .title {
-	font:italic 12px/15px Calibri;
 	color:#000000;
 	padding:10px 0;
 }
 .block-title {
-	font:bold 13px/30px Calibri;
 	color:#ffffff;
 	border-radius:8px 8px 0 0;
 	padding:0 0 0 8px;
@@ -212,17 +200,14 @@ body {
 	padding:15px 0 10px 0;
 }
 .plan {
-	font:bold 13px/15px Calibri;
 	color:#b40014;
 	margin-bottom:5px;
 	text-transform:uppercase;
 }
 .timer {
-	font:italic 11px/25px Calibri;
 	color:#000000;
 }
 .project {
-	font:normal 12px/15px Calibri;
 	color:#000000;
 	margin-top:10px;
 	margin-bottom:5px;
@@ -275,7 +260,6 @@ body {
 .team_info p {
 	position:absolute;
 	left:0;
-	font:normal 12px/15px Calibri;
 	color:#000000;
 	bottom:7px;
 }
@@ -299,7 +283,6 @@ body {
 	padding:7px;
 }
 .team_name {
-	font:normal 12px Calibri;
 	color:#000000;
 	height:27px;
 	text-align:center;
@@ -325,32 +308,26 @@ body {
 	margin:27px 0 0 0;
 }
 .caption {
-	font: bold 15px/25px Calibri;
 	color:#b40014;
 	padding:5px 0 0 0;
 }
 .date {
 	border-bottom:1px dashed #444443;
-	font:italic 12px/20px Calibri;
 	color:#000000;
 }
 .deltager {
-	font:normal 12px/15px Calibri;
 	color:#000000;
 	padding:8px 0;
 }
 .delta li {
-	font:normal 12px/15px Calibri;
 	color:#000000;
 	margin-top:20px;
 }
 .houre {
-	font:italic 11px/24px Calibri;
 	color:#000000;
 	border-bottom:1px dashed #444443;
 }
 .tag {
-	font:bold 12px Calibri;
 	padding:11px 0 0 0;
 }
 .tag a {
@@ -358,12 +335,10 @@ body {
 	text-decoration:underline;
 }
 .odder {
-	font:italic 12px/15px Calibri;
 	color:#000000;
 	padding:10px 0;
 }
 .radius_text {
-	font:normal 12px Calibri;
 	color:#000000;
 	padding:0 0 0 6px;
 	margin:0 0 8px 0;
@@ -381,7 +356,6 @@ body {
 	display:block;
 	border-radius:5px;
 	height:22px;
-	font:normal 11px/22px Calibri;
 	color:#000000;
 	text-align:center;
 	background:#ffffff;
@@ -394,7 +368,6 @@ body {
 /* CSS Document */
 
 .gatil {
-	font:normal 12px Calibri;
 	padding:50px 0 0 0;
 }
 .gatil a {
@@ -405,7 +378,6 @@ body {
 	float:left;
 	display:block;
 	width:120px;
-	font:normal 11px Calibri;
 	color:#000000;
 	padding:30px 0 0 80px;
 }
@@ -433,7 +405,6 @@ body {
 	height:102px;
 }
 .photo_title {
-	font:normal 12px Calibri;
 	color:#000000;
 	width:85px;
 	text-align:center;
@@ -445,11 +416,9 @@ body {
 	padding:0 0 0 12px;
 }
 .members_info {
-	font:normal 12px/16px Calibri;
 	color:#000000;
 }
 .members_info p {
-	font:normal 12px/16px Calibri;
 	color:#000000;
 }
 .good_comment {
@@ -466,7 +435,6 @@ body {
 .good_comment span {
 	display:block;
 	width:25px;
-	font:bold 14px/25px Calibri;
 	color:#ffffff;
 	float:left;
 	display:block;
@@ -492,7 +460,6 @@ body {
 .low_comment span {
 	display:block;
 	width:25px;
-	font:bold 14px/25px Calibri;
 	color:#ffffff;
 	float:left;
 	display:block;
@@ -501,7 +468,6 @@ body {
 	background:#b40013;
 }
 .comment_title {
-	font:bold 12px/20px Calibri;
 	color:#000000;
 }
 .comment_info {
@@ -511,7 +477,6 @@ body {
 	width:520px;
 }
 .comment_text {
-	font:normal 12px/14px Calibri;
 	color:#000000;
 	padding:0 0 10px 0;
 }
@@ -522,7 +487,6 @@ body {
 	width:520px;
 }
 .leave_comment {
-	font:normal 12px/15px Calibri;
 	color:#000000;
 	width:113px;
 	padding:12px 0 0 0;
@@ -549,14 +513,12 @@ body {
 	border-radius:2px;
 	height:18px;
 	outline:none;
-	font:normal 12px/18px Calibri;
 	color:#000;
 }
 .leave_title {
 	float:left;
 	display:block;
 	width:145px;
-	font:normal 12px/20px Calibri;
 	color:#000000;
 }
 .leave_input_box {
@@ -575,13 +537,11 @@ body {
 	outline:none;
 	width:386px;
 	resize:none;
-	font:normal 12px/20px Calibri;
 	color:#000000;
 	outline:none;
 }
 .kommentar {
 	width:145px;
-	font:normal 12px/20px Calibri;
 	color:#000000;
 }
 .send {
@@ -663,27 +623,23 @@ body {
 	padding:0 0 0 20px;
 }
 .lauth {
-	font:bold 15px Calibri;
 	color:#b40013;
 	width:630px;
 	padding-top:20px;
 	text-transform:uppercase;
 }
 .lauthsmall {
-	font:bold 15px Calibri;
 	color:#b40013;
 	width:330px;
 	text-transform:uppercase;
 }
 .lauthtop {
-	font:bold 15px Calibri;
 	color:#b40013;
 	padding-top:20px;
 	text-transform:uppercase;
 }
 .link_sign {
 	padding:13px 0 0 0;
-	font:normal 11px Calibri;
 	margin-left: 10px;
 	margin-top: 170px;
 	float:left;
@@ -699,20 +655,16 @@ body {
 	padding:0 0 0 80px;
 }
 /*.ole_title {
-	font:bold 15px/60px Calibri;
 	color:#b40014;
 }
 .ole_info {
-	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 0 15px 0;
 }*/
 .ole_title span {
-	font:bold 15px/60px Calibri;
 	color:#b40014;
 }
 .ole_info p {
-	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 50px 0 0;
 	height:240px;
@@ -724,15 +676,12 @@ body {
 	padding:0 0 0 20px;
 }
 .ole_info_new a {
-	font:bold 11px Calibri;
 	color:#b40014;
 }
 .ole_info a {
-	font:bold 11px Calibri;
 	color:#b40014;
 }
 .ole_info_new {
-	font:normal 11px/14px Calibri;
 	color:#000000;
 }
 .play {
@@ -740,25 +689,21 @@ body {
 	margin:-10px 0 0 0;
 }
 .lorem {
-	font:normal 12px/14px Calibri;
 	color:#000000;
 	padding:15px 0 0 0;
 	width:900px;
 	text-transform:uppercase;
 }
 .lorem_new {
-	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:8px 0 0 0;
 }
 .lorem_de {
-	font:bold 12px/14px Calibri;
 	color:#000000;
 	padding:17px 0 0 0;
 	width:935px;
 }
 .lorem_de p {
-	font:bold 12px/14px Calibri;
 	color:#000000;
 	padding:17px 0 0 0;
 }
@@ -818,7 +763,6 @@ body {
 	padding:0 0 0 15px;
 }
 .see_more {
-	font:bold 12px Calibri;
 	position:absolute;
 	bottom:10px;
 	right:8px;
@@ -897,7 +841,6 @@ body {
 	margin-top: -2px;
 }
 .kanlaumain {
-	font:bold 15px Calibri;
 	color:#b40013;
 	width:630px;
 	margin-top:-290px;
@@ -907,7 +850,6 @@ body {
 	text-transform:uppercase;
 }
 .kanlaumain span {
-	font:bold 15px Calibri;
 	color:#b40013;
 	width:630px;
 	padding-top:20px;
@@ -928,23 +870,19 @@ body {
 }
 
 .ole_title {
-	font:bold 15px/60px Calibri;
 	color:#b40014;
 	text-transform:uppercase;
 }
 .ole_info {
-	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 50px 0 0;
 	height:240px;
 }
 .ole_title span {
-	font:bold 15px/60px Calibri;
 	color:#b40014;
 	text-transform:uppercase;
 }
 .ole_info p {
-	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 50px 0px 0;
 	height:240px;
@@ -956,25 +894,21 @@ body {
 	width:260px;
 }
 .field-name-field-politisk-titel {
-	font:bold 15px/60px Calibri;
 	color:#b40014;
 	text-transform:uppercase;
 }
 .field-name-field-my-focus {
-	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 50px 15px 0;
 	width:640px;
 }
 .field-name-field-my-focus p {
-	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 50px 15px 0;
 	width:640px;
 }
 .social {
 	float: left;
-	font: 11px Calibri;
 	padding: 13px 0 0;
 	margin-top:165px;
 }
