@@ -7,7 +7,7 @@
 /* @charset "utf-8"; */
 /* CSS Document */
 
-* {
+/* {
 	border:0;
 	margin:0;
 	padding:0;
@@ -39,7 +39,9 @@ body {
 	width:940px;
 	margin:0 auto;
 }
+*/
 /*header*/
+/*
 .header {
 	height:103px;
 }
@@ -101,6 +103,7 @@ body {
 	background:#9c9b9b;
 	margin-top:-22px;
 }
+*/
 /*nav*/
 .nav {
 	width:960px;
