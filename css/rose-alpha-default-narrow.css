@@ -5,9 +5,9 @@
  
 /* base.css */
 
-@charset "utf-8";
+/* @charset "utf-8"; */
 /* CSS Document */
-
+/*
 * {
 	border:0;
 	margin:0;
@@ -40,10 +40,13 @@ body {
 	width:940px;
 	margin:0 auto;
 }
+*/
 /*header*/
+/*
 .header {
 	height:103px;
 }
+*/
 .logo-img {
 	width:490px;
 	height:70px;
@@ -52,6 +55,7 @@ body {
 	display:block;
 	padding-top: 25px;
 }
+/*
 .header_right {
 	float:left;
 	display:block;
@@ -102,6 +106,7 @@ body {
 	background:#9c9b9b;
 	margin-top:-22px;
 }
+*/
 /*nav*/
 .nav {
 	width:950px;
@@ -109,6 +114,7 @@ body {
 	border-radius:8px;
 	background:#b40013;
 }
+/*
 .nav li {
 	float:left;
 	display:block;
@@ -125,6 +131,7 @@ body {
 .nav .no_bg {
 	background:none;
 }
+*/
 /*footer*/
 .footer {
 	background:#d9d9d9;
@@ -136,6 +143,7 @@ body {
 	margin:30px 0 0 0;
 	width:940px;
 }
+/*
 .footer p {
 	font:bold 11px/18px Calibri;
 	color:#000000;
@@ -147,10 +155,10 @@ body {
 .footer span {
 	font-weight:normal;
 }
-
+*/
 /* module.css */
 
-@charset "utf-8";
+/* @charset "utf-8"; */
 /* CSS Document */
 
 .sidebar_img {
@@ -187,6 +195,7 @@ body {
 	margin-top:200px;
 	margin-left:598px;
 }
+/*
 .container {
 	float:left;
 	display:block;
@@ -312,6 +321,7 @@ body {
 	margin-top:2px;
 	width:90px;
 }
+*/
 .midblock{
 	width:360px;
 	margin-left:150px;
@@ -326,12 +336,14 @@ body {
 	margin-left:285px;
 	margin-top:0px;
 }
+/*
 .kalender {
 	border-radius:8px;
 	background:#d9d9d9;
 	height:220px;
 	padding:0 20px;
 }
+*/
 .kalender2 {
 	border-radius:8px;
 	background:#d9d9d9;
@@ -340,6 +352,7 @@ body {
 	padding:0 20px;
 	margin-left:285px;
 }
+/*
 .caption {
 	font: bold 15px/25px Calibri;
 	color:#b40014;
@@ -403,7 +416,7 @@ body {
 	background:#ffffff;
 	border:1px solid #b1b1b1;
 }
-
+*/
 /* next_tips.css */
 
 @charset "utf-8";
