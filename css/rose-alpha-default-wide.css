@@ -15,7 +15,6 @@ body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div
 	margin:0;
 	padding:0;
 	border:0;
-	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	-webkit-text-size-adjust:none;
 }
@@ -58,7 +57,6 @@ body {
 	width:220px;
 }
 .contact {
-	font:normal 8px/22px Arial, Helvetica, sans-serif;
 	height:33px;
 }
 .contact a {
@@ -82,7 +80,6 @@ body {
 	margin:5px 0 0 0;
 }
 .search span input {
-	font:normal 11px/15px Arial, Helvetica, sans-serif;
 	color:#9C9B9B;
 	width:185px;
 	outline:none;
