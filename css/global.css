@@ -167,10 +167,11 @@ body {
 	margin-bottom:40px;
 }
 .sidetext p {
-	font:normal 12px/15px Calibri;
+	font:italic 18px/20px Calibri;
 	color:#222221;
-	padding:85px 0 0 0;
-	padding-left:35px;
+	padding:85px 15px 0 15px;
+	/* padding-left:35px; */
+	vertical-align: middle;
 }
 .ipsum {
 	font:bold 15px/40px Calibri;
