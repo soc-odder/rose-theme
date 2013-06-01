@@ -26,8 +26,14 @@
 .sidebar_img {
 	width:721px;
 }
-.sideright {
+sideright {
+	float:right;
+	display:block;
+	width:197px;
+	background:url(../images/sidebg.jpg) repeat-y;
+	height:270px;
 	margin-right:-320px;
+	margin-bottom:40px;
 }
 
 .ipsum a {
