@@ -27,9 +27,9 @@
 	width:721px;
 }
 .sideright {
-	float:right;
+/*	float:right; */
 	display:block;
-	width:197px;
+/*	width:197px; */
 	background:url(../images/sidebg.jpg) repeat-y;
 	height:270px;
 	margin-right:-320px;
