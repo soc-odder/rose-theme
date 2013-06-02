@@ -126,10 +126,10 @@ body {
 }
 
 /*
-/*
-/* FOOTER
-/*
-/* */
+
+-------- FOOTER
+
+*/
 .footer {
 	background:#d9d9d9;
 	height:45px;
@@ -915,9 +915,9 @@ h2.block-title {
 }
 
 /*
-/*
-/* CANDIDATE PROFILE
-/*
+
+-------- CANDIDATE PROFILE
+
 /*
 
 /* [Kandidat] om [Kandidat] title */
@@ -933,20 +933,7 @@ h2.block-title {
 	color:#000000;
 	padding:0 0 15px 0;
 	margin-left: 70px;
-}
-
-/* Don't know where these .ole_info are used
-.ole_info_new a {
-	font:bold 11px Calibri;
-	color:#b40014;
-}
-.ole_info a {
-	font:bold 11px Calibri;
-	color:#b40014;
-}
-.ole_info_new {
-	font:normal 11px/14px Calibri;
-	color:#000000;
+	margin-right: 70px;
 }
 
 /* [Jeg vil arbejde for] title */
@@ -963,11 +950,25 @@ h2.block-title {
 	padding:0 50px 15px 0;
 }
 
+/* Don't know where these .ole_info are used
+.ole_info_new a {
+	font:bold 11px Calibri;
+	color:#b40014;
+}
+.ole_info a {
+	font:bold 11px Calibri;
+	color:#b40014;
+}
+.ole_info_new {
+	font:normal 11px/14px Calibri;
+	color:#000000;
+}
+
 /*
-/*
-/* Unknown
-/*
-/*
+
+-------- UNKNOWN
+
+*/
 .views-row-1 {
 	width:960px;
 }
