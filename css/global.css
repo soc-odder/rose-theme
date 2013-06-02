@@ -64,9 +64,7 @@ body {
 	padding:0 0 0 43px;
 	text-decoration:none;
 }
-div.block-inner clearfix h2.blocktitle {
-	font-size: 17px;
-}
+
 .search {
 	border:1px solid #cdcdcd;
 	height:25px;
@@ -199,7 +197,10 @@ div.block-inner clearfix h2.blocktitle {
 	padding:10px 0;
 }
 .block-title {
-	font:bold 13px/30px Calibri;
+	font: Calibri;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 30px;
 	color:#ffffff;
 	border-radius:8px 8px 0 0;
 	padding:0 0 0 8px;
