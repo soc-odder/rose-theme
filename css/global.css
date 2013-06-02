@@ -661,7 +661,7 @@ body {
 	padding:0 0 0 20px;
 }
 .lauth {
-	font:bold 15px Calibri;
+	font:bold 17px;
 	color:#b40013;
 	width:630px;
 	padding-top:20px;
@@ -682,7 +682,6 @@ body {
 .link_sign {
 	padding:13px 0 0 0;
 	font:normal Calibri 13px;
-	/* font-size: 13px; */
 	margin-left: 10px;
 	margin-top: 170px;
 	float:left;
