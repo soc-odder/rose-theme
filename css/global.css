@@ -87,10 +87,10 @@ body {
 }
 .search span input {
 	font:normal 14px Calibri;
-	color:#9C9B9B;
+/*	color:#9C9B9B; */
 	width:170px;
 	outline:none;
-	margin-left: -5px;
+	margin-left: -4px;
 	border:none;
 }
 .search a input {
@@ -109,7 +109,11 @@ body {
     padding-top: 5px;
 }
 
-/*nav*/
+/*
+
+-------- NAVIGATION
+
+*/
 .nav {
 	width:940px;
 	height:40px;
