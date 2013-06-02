@@ -28,7 +28,8 @@
 }
 
 .link_sign {
-	font-size: 12px;
+	font: Calibri 13px;
+	/* font-size: 12px; */
 }
 
 /* next_tips.css */
