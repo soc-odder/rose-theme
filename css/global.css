@@ -83,14 +83,14 @@ body {
 	display:block;
 	width:177px;
 	height:15px;
-	margin:5px 0 0 0;
+	margin: 0 0 0 0;
 }
 .search span input {
-	font:normal 11px Calibri;
+	font:normal 14px Calibri;
 	color:#9C9B9B;
 	width:170px;
 	outline:none;
-	height:17px;
+/*	height:17px; */
 	border:none;
 }
 /*
@@ -106,7 +106,7 @@ body {
     float: right;
     font: 12px/25px Calibri;
     height: 26.5px;
-    margin-top: -21.5px;
+    margin-top: -16.5px;
     text-align: center;
     width: 40px;
     padding-top: 5px;
