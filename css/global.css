@@ -671,11 +671,11 @@ h2.block-title {
 }
 .lauth {
 	font: Calibri;
-	font-size: 17px;
+	font-size: 25px;
 	font-weight: bold;
 	color:#b40013;
 	width:630px;
-	padding-top:15px;
+	padding-top:10px;
 	text-transform:uppercase;
 }
 .lauthsmall {
@@ -707,10 +707,12 @@ h2.block-title {
 	width:220px;
 	padding:0 0 0 80px;
 }
+/*
 .ole_title span {
 	font:bold 15px/60px Calibri;
 	color:#b40014;
 }
+*/
 .ole_info p {
 	font:normal 11px/14px Calibri;
 	color:#000000;
@@ -936,7 +938,7 @@ h2.block-title {
 	height:240px;
 }
 .ole_title span {
-	font:bold 15px/60px Calibri;
+	font:bold 17px/60px Calibri;
 	color:#b40014;
 	text-transform:uppercase;
 }
