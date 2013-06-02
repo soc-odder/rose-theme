@@ -198,9 +198,9 @@ body {
 }
 
 h2.block-title {
-	font: Calibri;
-	font-weight: bold;
-	font-size: 17px;
+	font: "Times New Roman";
+	font-weight: normal;
+	font-size: 11px;
 }
 
 .block-title {
