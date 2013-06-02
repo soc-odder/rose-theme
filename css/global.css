@@ -200,18 +200,20 @@ body {
 .block-title {
 	font-family: Calibri;
 	font-weight: bold;
+	font-size: 17px;
+	line-height: 30px;
 	color:#ffffff;
 	border-radius:8px 8px 0 0;
 	padding:0 0 0 8px;
 	background:#b40013;
 	text-transform:uppercase;
 }
-
+/*
 h2.block-title {
 	font-size: 17px;
 	line-height: 30px;
 }
-
+*/
 .container_center {
 	float:left;
 	display:block;
