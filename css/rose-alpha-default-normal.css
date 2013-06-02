@@ -62,10 +62,6 @@
 	width:a;
 }
 
-.ole_info p {
-	margin-left:70px;
-}
-
 .search_pos {
 	left:730px;
 }
@@ -97,11 +93,12 @@ ul.inline li {
 .kanlaumain {
 	margin-right: -450px;
 }
-
+/*
 .ole_info p {
 	padding:0 50px 0 0;
+	margin-left:70px;
 }
-
+*/
 .field-name-field-politisk-titel {
 	padding-left: 70px;
 	margin-left:0px;

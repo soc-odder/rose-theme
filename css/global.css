@@ -707,36 +707,14 @@ h2.block-title {
 	width:220px;
 	padding:0 0 0 80px;
 }
-/*
-.ole_title span {
-	font:bold 15px/60px Calibri;
-	color:#b40014;
-}
 
-.ole_info p {
-	font:normal 11px/14px Calibri;
-	color:#000000;
-	padding:0 50px 15px 0;
-}
-*/
 .jeq {
 	float:left;
 	display:block;
 	width:550px;
 	padding:0 0 0 20px;
 }
-.ole_info_new a {
-	font:bold 11px Calibri;
-	color:#b40014;
-}
-.ole_info a {
-	font:bold 11px Calibri;
-	color:#b40014;
-}
-.ole_info_new {
-	font:normal 11px/14px Calibri;
-	color:#000000;
-}
+
 .play {
 	padding:0 0 0 280px;
 	margin:-10px 0 0 0;
@@ -939,21 +917,35 @@ h2.block-title {
 .ole_info {
 	font:normal 14px/17px Calibri;
 	color:#000000;
-	padding:0 50px 0 0;
+	padding:0 50px 15px 0;
 	/* height:240px; */
 }
+
+.ole_info_new a {
+	font:bold 11px Calibri;
+	color:#b40014;
+}
+.ole_info a {
+	font:bold 11px Calibri;
+	color:#b40014;
+}
+.ole_info_new {
+	font:normal 11px/14px Calibri;
+	color:#000000;
+}
+
 /*
 .ole_title span {
 	font:bold 17px/60px Calibri;
 	color:#b40014;
 	text-transform:uppercase;
 }
-*/
 
 .ole_info p {
 	padding:0 50px 15px 0;
 	height:260px;
 }
+*/
 .views-row-1 {
 	width:960px;
 }
