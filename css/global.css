@@ -87,7 +87,7 @@ body {
 }
 .search span input {
 	font:normal 14px Calibri;
-	color:#9C9B9B;
+/*	color:#9C9B9B; */
 	width:170px;
 	outline:none;
 /*	height:17px; */
@@ -107,9 +107,12 @@ body {
     font: 12px/25px Calibri;
     height: 26.5px;
     margin-top: -16.5px;
+    margin-right: -1px;
     text-align: center;
-    width: 40px;
+    text-shadow: none;
+    width: 42px;
     padding-top: 5px;
+    padding-left: 0px;
 }
 
 /*nav*/
