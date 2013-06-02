@@ -198,7 +198,7 @@ body {
 }
 
 .block-title {
-	font:normal 10px/10px Calibri;
+	font:bold Calibri;
 	color:#ffffff;
 	border-radius:8px 8px 0 0;
 	padding:0 0 0 8px;
@@ -207,7 +207,6 @@ body {
 }
 
 h2.block-title {
-	font-weight: bold;
 	font-size: 17px;
 	line-height: 30px;
 }
