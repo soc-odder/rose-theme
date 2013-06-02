@@ -663,7 +663,7 @@ body {
 .lauth {
 	font: Calibri;
 	font-size: 17px;
-	font-style: bold;
+	font-weight: bold;
 	color:#b40013;
 	width:630px;
 	padding-top:20px;
