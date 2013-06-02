@@ -64,6 +64,9 @@ body {
 	padding:0 0 0 43px;
 	text-decoration:none;
 }
+div.block-inner clearfix h2.blocktitle {
+	font-size: 17px;
+}
 .search {
 	border:1px solid #cdcdcd;
 	height:25px;
@@ -666,7 +669,7 @@ body {
 	font-weight: bold;
 	color:#b40013;
 	width:630px;
-	padding-top:20px;
+	padding-top:15px;
 	text-transform:uppercase;
 }
 .lauthsmall {
@@ -682,9 +685,9 @@ body {
 	text-transform:uppercase;
 }
 .link_sign {
-	padding:13px 0 0 0;
+	padding: 18px 0 0 0;
 	font:normal Calibri 13px;
-	margin-left: 10px;
+	/* margin-left: 10px; */
 	margin-top: 170px;
 	float:left;
 }
