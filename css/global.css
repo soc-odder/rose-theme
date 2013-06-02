@@ -681,7 +681,8 @@ body {
 }
 .link_sign {
 	padding:13px 0 0 0;
-	font:normal 13px "Times New Roman";
+	font:normal Calibri;
+	font-size: 13px;
 	margin-left: 10px;
 	margin-top: 170px;
 	float:left;
