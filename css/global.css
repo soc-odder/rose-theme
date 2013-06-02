@@ -198,7 +198,8 @@ body {
 }
 
 .block-title {
-	font:bold Calibri;
+	font-family: Calibri;
+	font-weight: bold;
 	color:#ffffff;
 	border-radius:8px 8px 0 0;
 	padding:0 0 0 8px;
