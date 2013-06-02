@@ -87,17 +87,12 @@ body {
 }
 .search span input {
 	font:normal 14px Calibri;
-/*	color:#9C9B9B; */
+	color:#9C9B9B;
 	width:170px;
 	outline:none;
-/*	height:17px; */
+	margin-left: -5px;
 	border:none;
 }
-/*
-.search a input {
-	background:#9c9b9b;
-}
-*/
 .search a input {
     background: none repeat scroll 0 0 #9C9B9B;
     border-radius: 0 8px 8px 0;
@@ -112,7 +107,6 @@ body {
     text-shadow: none;
     width: 42px;
     padding-top: 5px;
-    padding-left: 0px;
 }
 
 /*nav*/
