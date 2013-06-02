@@ -946,8 +946,7 @@ h2.block-title {
 .field-name-field-my-focus {
 	font:normal 14px/17px Calibri;
 	color:#000000;
-	padding:0 0 15px 0;
-	margin-right: 70px;
+	padding:0 70px 15px 0;
 }
 
 /* Don't know where these .ole_info are used
