@@ -196,6 +196,13 @@ body {
 	color:#000000;
 	padding:10px 0;
 }
+
+h2.block-title {
+	font: Calibri;
+	font-weight: bold;
+	font-size: 17px;
+}
+
 .block-title {
 	font: Calibri;
 	font-weight: bold;
