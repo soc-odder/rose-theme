@@ -922,6 +922,7 @@ h2.block-title {
 	/* height:240px; */
 }
 
+/* Don't know where these .ole_info are used
 .ole_info_new a {
 	font:bold 11px Calibri;
 	color:#b40014;
@@ -935,18 +936,6 @@ h2.block-title {
 	color:#000000;
 }
 
-/*
-.ole_title span {
-	font:bold 17px/60px Calibri;
-	color:#b40014;
-	text-transform:uppercase;
-}
-
-.ole_info p {
-	padding:0 50px 15px 0;
-	height:260px;
-}
-*/
 .views-row-1 {
 	width:960px;
 }
@@ -955,21 +944,27 @@ ul.inline li {
     list-style-type: none;
     padding: 0 1.55em;
 }
+
+/* [Jeg vil arbejde for] title */
 .field-name-field-politisk-titel {
 	font:bold 17px/60px Calibri;
 	color:#b40014;
 	text-transform:uppercase;
 }
+
+/* [Jeg vil arbejde for] body */
 .field-name-field-my-focus {
-	font:normal 11px/14px Calibri;
+	font:normal 14px/17px Calibri;
 	color:#000000;
 	padding:0 50px 15px 0;
 }
+/*
 .field-name-field-my-focus p {
 	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:0 50px 15px 0;
 }
+*/
 .social {
 	float: left;
 	font: 11px Calibri;
