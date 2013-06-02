@@ -198,13 +198,12 @@ body {
 }
 
 h2.block-title {
-	font: "Times New Roman";
-	font-weight: normal;
-	font-size: 11px;
+	font-weight: bold;
+	font-size: 17px;
 }
 
 .block-title {
-	font:bold 17px/30px Calibri;
+	font:bold 17px/10px Calibri;
 	color:#ffffff;
 	border-radius:8px 8px 0 0;
 	padding:0 0 0 8px;
