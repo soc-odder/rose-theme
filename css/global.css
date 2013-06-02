@@ -933,7 +933,7 @@ h2.block-title {
 	text-transform:uppercase;
 }
 .ole_info {
-	font:normal 14px/14px Calibri;
+	font:normal 14px/17px Calibri;
 	color:#000000;
 	padding:0 50px 0 0;
 	height:240px;
@@ -944,8 +944,6 @@ h2.block-title {
 	text-transform:uppercase;
 }
 .ole_info p {
-/*	font:normal 11px/14px Calibri;
-	color:#000000; */
 	padding:0 50px 15px 0;
 	height:260px;
 }
