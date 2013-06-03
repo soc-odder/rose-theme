@@ -359,9 +359,7 @@ h2.block-title {
 .kalender2 {
 	border-radius:8px;
 	background:#d9d9d9;
-	/* padding:0 20px; */
 	padding: 3px 15px 15px 10px;
-/*	margin:20px 20px 20px 20px; */
 }
 
 .caption {
@@ -373,12 +371,14 @@ h2.block-title {
 .date {
 	border-bottom:1px dashed #444443;
 	font:italic 14px/17px Calibri;
-/*	color:#000000; */
 }
 .deltager {
 	font:normal 14px/17px Calibri;
-/*	color:#000000; */
 	padding:8px 0;
+}
+
+.choices.title {
+	font:normal 14px/17px Calibri;
 }
 
 .delta li {
