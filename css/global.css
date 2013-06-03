@@ -377,8 +377,8 @@ h2.block-title {
 	padding:8px 0;
 }
 
-div choices.title {
-	font:normal 14px/17px Calibri;
+.poll .vote-form .choices .title {
+    font:normal 14px/17px Calibri;
 }
 
 .delta li {
