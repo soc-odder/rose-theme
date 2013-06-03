@@ -224,30 +224,28 @@ body {
 */
 
 .leftblock .block-title, .midblock .block-title {
-	font-family: Calibri;
+/*	font-family: Calibri;
 	font-weight: bold;
 	font-size: 17px;
-	line-height: 30px;
-	color:#ffffff;
 	border-radius:8px 8px 0 0;
 	padding:0 0 0 8px;
+	line-height: 30px;
+	text-transform:uppercase; */
+	color:#ffffff;
 	background:#b40013;
-	text-transform:uppercase;
 }
 
-/*
+
 .block-title {
 	font-family: Calibri;
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 30px;
-	color:#ffffff;
+	color:#b40014;
 	border-radius:8px 8px 0 0;
 	padding:0 0 0 8px;
-	background:#b40013;
 	text-transform:uppercase;
 }
-*/
 
 h2.block-title {
 	font-size: 17px;
