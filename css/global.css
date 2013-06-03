@@ -135,7 +135,6 @@ body {
 
 .footer {
 	background:#d9d9d9;
-	height:45px;
 	padding:10px 0 0 0;
 	font:bold 14px/17px Calibri;
 	color:#000000;
@@ -661,6 +660,60 @@ h2.block-title {
 
 /* themes.css */
 
+.municipal {
+	padding:0 0 0 80px;
+}
+.municipal_left {
+	float:left;
+	display:block;
+	margin:23px 20px 15px 0;
+	width:350px;
+	padding:15px;
+	height:130px;
+	position:relative;
+	border-radius:8px;
+	background:#e5e5e5;
+}
+.municipal_newbg {
+	float:left;
+	display:block;
+	margin:23px 20px 15px 0;
+	width:350px;
+	padding:15px;
+	height:130px;
+	position:relative;
+	border-radius:8px;
+	background:#aaaaaa;
+}
+.municipal_img {
+	float:left;
+	display:block;
+	height:130px;
+	width:88px;
+	background:#f5f5f5;
+	margin-right:10px;
+	margin-top: -20px;
+}
+.municipal_main {
+	float:left;
+	display:block;
+	width:230px;
+	padding:0 0 0 15px;
+}
+.see_more {
+	font:bold 12px Calibri;
+	position:absolute;
+	bottom:10px;
+	right:8px;
+}
+.see_more a {
+	color:#b40014;
+	text-decoration:underline;
+	position:absolute;
+	width:58px;
+	right:0;
+}
+
 .municipal .col-1, .mu1 {
 	float:left;
 	display:block;
@@ -848,33 +901,6 @@ a:link, a:visited {
 	color:#000000;
 	padding:17px 0 0 0;
 }
-.municipal {
-	width:800px;
-	padding:0 0 0 80px;
-	margin-top:-450px;
-}
-.municipal_left {
-	float:left;
-	display:block;
-	margin:23px 20px 15px 0;
-	width:350px;
-	padding:15px;
-	height:130px;
-	position:relative;
-	border-radius:8px;
-	background:#e5e5e5;
-}
-.municipal_newbg {
-	float:left;
-	display:block;
-	margin:23px 20px 15px 0;
-	width:350px;
-	padding:15px;
-	height:130px;
-	position:relative;
-	border-radius:8px;
-	background:#aaaaaa;
-}
 .num_text {
 	position:absolute;
 	right:8px;
@@ -889,34 +915,7 @@ a:link, a:visited {
 .num_text a {
 	color:#b40014;
 }
-.municipal_img {
-	float:left;
-	display:block;
-	height:130px;
-	width:88px;
-	background:#f5f5f5;
-	margin-right:10px;
-	margin-top: -20px;
-}
-.municipal_main {
-	float:left;
-	display:block;
-	width:230px;
-	padding:0 0 0 15px;
-}
-.see_more {
-	font:bold 12px Calibri;
-	position:absolute;
-	bottom:10px;
-	right:8px;
-}
-.see_more a {
-	color:#b40014;
-	text-decoration:underline;
-	position:absolute;
-	width:58px;
-	right:0;
-}
+
 .vertaligntop tr td{
 	vertical-align:top;
 	margin-top:0;
