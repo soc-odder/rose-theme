@@ -300,6 +300,12 @@ h2.block-title {
 	color:#b40014;
 	text-decoration:underline;
 }
+/*
+
+-------- CANDIDATES - FRONT PAGE
+
+*/
+
 .team_leader {
 	padding:22px 0 10px 0;
 }
@@ -345,7 +351,7 @@ h2.block-title {
 	padding:7px;
 }
 .team_name {
-	font:normal 12px Calibri;
+	font:normal 13px Calibri;
 	color:#000000;
 	height:27px;
 	text-align:center;
