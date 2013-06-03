@@ -1070,7 +1070,7 @@ ul.inline li {
 }
 .button, input[type="reset"], input[type="submit"], input[type="button"] {
     border-width: 1px;
-	font:normal 12px/20px givemig;
+	font:normal 12px/20px Calibri;
     color: #333333;
     cursor: pointer;
     outline: 0 none;
