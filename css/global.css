@@ -400,7 +400,9 @@ h2.block-title {
 }
 
 /* Polling items */
-.poll .vote-form .choices .form-item {
+.poll .vote-form .choices .form-item div#edit-choice.form-radios .form-item {
+	font-family: Calibri;
+	font-size: 14px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
