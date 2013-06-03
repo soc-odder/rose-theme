@@ -345,34 +345,42 @@ h2.block-title {
 	display:block;
 	margin-top:20px
 }
+/*
+
+-------- EVENT CALENDAR FRONTPAGE
+
+*/
+
 .kalender {
 	border-radius:8px;
 	background:#d9d9d9;
-	height:220px;
-	padding: 3px 15px 15px 15px;
+	padding: 3px 15px 15px 10px;
 }
 .kalender2 {
 	border-radius:8px;
 	background:#d9d9d9;
-	height:320px;
-	padding:0 20px;
-	margin:20px 20px 20px 20px;
+	/* padding:0 20px; */
+	padding: 3px 15px 15px 10px;
+/*	margin:20px 20px 20px 20px; */
 }
+
 .caption {
 	font: bold 17px/25px Calibri;
 	color:#b40014;
-	padding:5px 0 0 0;
+	padding:2px 0 5px 0;
 }
+
 .date {
 	border-bottom:1px dashed #444443;
-	font:italic 14px/20px Calibri;
-	color:#000000;
+	font:italic 14px/17px Calibri;
+/*	color:#000000; */
 }
 .deltager {
-	font:normal 12px/15px Calibri;
-	color:#000000;
+	font:normal 14px/17px Calibri;
+/*	color:#000000; */
 	padding:8px 0;
 }
+
 .delta li {
 	font:normal 12px/15px Calibri;
 	color:#000000;
