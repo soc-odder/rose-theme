@@ -114,9 +114,6 @@ body {
 -------- NAVIGATION
 
 */
-.navigation {
-	padding-left: 30px;
-}
 .nav {
 	width:940px;
 	height:40px;
@@ -391,8 +388,20 @@ h2.block-title {
 	padding:8px 0;
 }
 
+/*
+
+-------- POLLING
+
+*/
+/* Body text inside the polling box */
 .poll .vote-form .choices .title {
     font:italic 14px/17px Calibri;
+    padding-top: 0px;
+}
+
+/* Polling items
+.poll .vote-form .choices .form-item {
+	padding: 0 10px 0 10px;
 }
 
 .delta li {
