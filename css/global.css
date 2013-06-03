@@ -230,6 +230,7 @@ body {
 	color:#b40014;		/* Text color */
 	text-transform:uppercase;
 	background: transparent;
+	padding-bottom: 5px;
 }
 
 h2.block-title {
@@ -241,6 +242,7 @@ h2.block-title {
 	padding:0 0 0 8px;
 	color:#ffffff;
 	background:#b40013;
+	padding-bottom: 0px;
 }
 
 .container_center {
