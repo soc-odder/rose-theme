@@ -114,6 +114,9 @@ body {
 -------- NAVIGATION
 
 */
+.navigation {
+	padding-left: 30px;
+}
 .nav {
 	width:940px;
 	height:40px;
