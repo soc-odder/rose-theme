@@ -15,7 +15,7 @@ body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div
 	margin:0;
 	padding:0;
 	border:0;
-	font: Calibri 12px;
+	font: 12px Calibri;
 	letter-spacing: 0em;
 	-webkit-text-size-adjust:none;
 }
@@ -56,7 +56,7 @@ body {
 	width:220px;
 }
 .contact {
-	font:normal 8px/22px Arial, Helvetica, sans-serif;
+	font:normal 8px/22px Calibri;
 	height:33px;
 }
 .contact a {
@@ -64,11 +64,8 @@ body {
 	padding:0 0 0 43px;
 	text-decoration:none;
 }
-/*
 
--------- SEARCH BOX
-
-*/
+/* SEARCH BOX */
 
 .search {
 	border:1px solid #cdcdcd;
@@ -109,11 +106,8 @@ body {
     padding-top: 5px;
 }
 
-/*
+/* NAVIGATION */
 
--------- NAVIGATION
-
-*/
 .nav {
 	width:940px;
 	height:40px;
@@ -137,11 +131,8 @@ body {
 	background:none;
 }
 
-/*
+/* FOOTER */
 
--------- FOOTER
-
-*/
 .footer {
 	background:#d9d9d9;
 	height:45px;
@@ -151,7 +142,6 @@ body {
 	text-align:center;
 	margin:30px 0 0 0;
 }
-
 /*
 .footer p {
 	font:bold 11px/18px Calibri;
@@ -165,11 +155,6 @@ body {
 .footer span {
 	font-weight:normal;
 }
-
-/* module.css */
-
-@charset "utf-8";
-/* CSS Document */
 
 .sidebar_img {
 	float:left;
@@ -217,11 +202,8 @@ body {
 	padding:10px 0;
 }
 
-/*
+/* BLOCK HEADERS */
 
--------- BLOCK HEADERS
-
-*/
 .block-title {
 	font-family: Calibri;
 	font-weight: bold;
@@ -240,18 +222,15 @@ h2.block-title {
 .leftblock .block-title, .midblock .block-title {
 	border-radius:8px 8px 0 0;
 	padding:0 0 0 8px;
-	color:#ffffff;
 	background:#b40013;
 	padding-bottom: 0px;
 }
-
 .container_center {
 	float:left;
 	display:block;
 	width:380px;
 	margin:27px 20px 0 0;
 }
-
 .containerbox {
 	border-bottom:1px dotted #b0b0b0;
 	position:relative;
@@ -262,6 +241,19 @@ h2.block-title {
 	color:#b40014;
 	margin-bottom:5px;
 	text-transform:none;
+}
+.plan a {
+	font:bold 13px/15px Calibri;
+	color:#b40014;
+	margin-bottom:5px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.plan h3 {
+	font:bold 13px/15px Calibri;
+	color:#b40014;
+	margin-bottom:5px;
+	text-transform:uppercase;
 }
 .timer {
 	font:italic 11px/25px Calibri;
@@ -300,11 +292,8 @@ h2.block-title {
 	color:#b40014;
 	text-decoration:underline;
 }
-/*
 
--------- CANDIDATES - FRONT PAGE
-
-*/
+/* CANDIDATES - FRONT PAGE */
 
 .team_leader {
 	padding:22px 0 10px 0;
@@ -364,11 +353,8 @@ h2.block-title {
 	display:block;
 	margin-top:20px
 }
-/*
 
--------- EVENT CALENDAR FRONTPAGE
-
-*/
+/* EVENT CALENDAR FRONTPAGE */
 
 .kalender {
 	border-radius:8px;
@@ -380,13 +366,11 @@ h2.block-title {
 	background:#d9d9d9;
 	padding: 3px 15px 15px 10px;
 }
-
 .caption {
 	font: bold 17px/25px Calibri;
 	color:#b40014;
 	padding:2px 0 5px 0;
 }
-
 .date {
 	border-bottom:1px dashed #444443;
 	font:italic 14px/17px Calibri;
@@ -396,11 +380,8 @@ h2.block-title {
 	padding:8px 0;
 }
 
-/*
+/*  POLLING */
 
--------- POLLING
-
-*/
 /* Body text inside the polling box */
 .poll .vote-form .choices .title {
     font:italic 14px/17px Calibri;
@@ -680,10 +661,7 @@ h2.block-title {
 
 /* themes.css */
 
-@charset "utf-8";
-/* CSS Document */
-
-.municipal .col-1 {
+.municipal .col-1, .mu1 {
 	float:left;
 	display:block;
 	margin:23px 20px 15px 0;
@@ -694,7 +672,7 @@ h2.block-title {
 	border-radius:8px;
 	background:#e5e5e5;
 }
-.municipal .col-2 {
+.municipal .col-2, .mu2 {
   	float:left;
 	display:block;
 	margin:23px 20px 15px 0;
@@ -735,19 +713,32 @@ h2.block-title {
 	padding:0 0 0 20px;
 }
 .lauth {
-	font: Calibri;
-	font-size: 25px;
-	font-weight: bold;
+	font:bold 25px Calibri;
 	color:#b40013;
 	width:630px;
 	padding-top:10px;
 	text-transform:uppercase;
+}
+h1.title {
+	font:bold 15px Calibri;
+	color:#b40013;
+	width:630px;
+	padding-top:20px;
+	padding-left:260px;
+	text-transform:uppercase;
+	width:640px;
 }
 .lauthsmall {
 	font:bold 15px Calibri;
 	color:#b40013;
 	width:330px;
 	text-transform:uppercase;
+	padding-left: 98px;
+	margin-top: -5px;
+}
+a:link, a:visited {
+    color: #b40013;
+    text-decoration: none;
 }
 .lauthtop {
 	font:bold 15px Calibri;
@@ -756,11 +747,7 @@ h2.block-title {
 	text-transform:uppercase;
 }
 
-/*
-
--------- LINKS (SOME OVERRIDES Omega)
-
-*/
+/*  LINKS (SOME OVERRIDES Omega) */
 a:link, a:visited {
     color: #B40014;
     text-decoration: none;
@@ -768,7 +755,7 @@ a:link, a:visited {
 
 .link_sign {
 	padding: 18px 0 0 0;
-	font:normal Calibri 13px;
+	font:normal 13px Calibri;
 	/* margin-left: 10px; */
 	margin-top: 170px;
 	float:left;
@@ -783,14 +770,42 @@ a:link, a:visited {
 	width:220px;
 	padding:0 0 0 80px;
 }
-
+/*.ole_title {
+	font:bold 15px/60px Calibri;
+	color:#b40014;
+}
+.ole_info {
+	font:normal 11px/14px Calibri;
+	color:#000000;
+	padding:0 0 15px 0;
+}*/
+.ole_title span {
+	font:bold 15px/60px Calibri;
+	color:#b40014;
+}
+.ole_info p {
+	font:normal 11px/14px Calibri;
+	color:#000000;
+	padding:0 50px 15px 0;
+}
 .jeq {
 	float:left;
 	display:block;
 	width:550px;
 	padding:0 0 0 20px;
 }
-
+.ole_info_new a {
+	font:bold 11px Calibri;
+	color:#b40014;
+}
+.ole_info a {
+	font:bold 11px Calibri;
+	color:#b40014;
+}
+.ole_info_new {
+	font:normal 11px/14px Calibri;
+	color:#000000;
+}
 .play {
 	padding:0 0 0 280px;
 	margin:-10px 0 0 0;
@@ -802,10 +817,25 @@ a:link, a:visited {
 	width:900px;
 	text-transform:uppercase;
 }
+.view-header {
+	font:normal 12px/14px Calibri;
+	color:#000000;
+	padding:15px 0 80px 260px;
+	width:640px;
+}
+.comment-add {
+	display:none;
+}
 .lorem_new {
 	font:normal 11px/14px Calibri;
 	color:#000000;
 	padding:8px 0 0 0;
+}
+.loremprog {
+	font:normal 11px/14px Calibri;
+	color:#000000;
+	padding:8px 0 0 0;
+	padding-top: 10px;
 }
 .lorem_de {
 	font:bold 12px/14px Calibri;
@@ -866,6 +896,7 @@ a:link, a:visited {
 	width:88px;
 	background:#f5f5f5;
 	margin-right:10px;
+	margin-top: -20px;
 }
 .municipal_main {
 	float:left;
@@ -882,6 +913,9 @@ a:link, a:visited {
 .see_more a {
 	color:#b40014;
 	text-decoration:underline;
+	position:absolute;
+	width:58px;
+	right:0;
 }
 .vertaligntop tr td{
 	vertical-align:top;
@@ -982,11 +1016,7 @@ a:link, a:visited {
 	margin:0 0 6px 0;
 }
 
-/*
-
--------- CANDIDATE PROFILE
-
-/*
+/* CANDIDATE PROFILE*/
 
 /* [Kandidat] om [Kandidat] title */
 .ole_title {
@@ -1017,7 +1047,7 @@ a:link, a:visited {
 	padding:0 70px 15px 0;
 }
 
-/* Don't know where these .ole_info are used
+/* Don't know where these .ole_info are used */
 .ole_info_new a {
 	font:bold 11px Calibri;
 	color:#b40014;
@@ -1029,13 +1059,9 @@ a:link, a:visited {
 .ole_info_new {
 	font:normal 11px/14px Calibri;
 	color:#000000;
+	padding:0 50px 15px 0;
+	height:260px;
 }
-
-/*
-
--------- UNKNOWN
-
-*/
 .views-row-1 {
 	width:960px;
 }
@@ -1044,7 +1070,21 @@ ul.inline li {
     list-style-type: none;
     padding: 0 1.55em;
 }
-
+.field-name-field-politisk-titel {
+	font:bold 15px/60px Calibri;
+	color:#b40014;
+	text-transform:uppercase;
+}
+.field-name-field-my-focus {
+	font:normal 11px/14px Calibri;
+	color:#000000;
+	padding:0 50px 15px 0;
+}
+.field-name-field-my-focus p {
+	font:normal 11px/14px Calibri;
+	color:#000000;
+	padding:0 50px 15px 0;
+}
 .social {
 	float: left;
 	font: 11px Calibri;
