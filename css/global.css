@@ -406,6 +406,9 @@ h2.block-title {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+.poll .vote-form .choices .form-item div#edit-choice.form-radios .form-item .option {
+	padding-left: 2px;
+}
 
 .delta li {
 	font:normal 12px/15px Calibri;
