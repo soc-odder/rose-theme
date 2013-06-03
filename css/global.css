@@ -217,7 +217,13 @@ body {
 	padding:10px 0;
 }
 
-.block-title {
+/*
+
+-------- BLOCKS
+
+*/
+
+.leftblock {
 	font-family: Calibri;
 	font-weight: bold;
 	font-size: 17px;
@@ -226,6 +232,30 @@ body {
 	border-radius:8px 8px 0 0;
 	padding:0 0 0 8px;
 	background:#b40013;
+	text-transform:uppercase;
+}
+
+.midblock {
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 30px;
+	color:#ffffff;
+	border-radius:8px 8px 0 0;
+	padding:0 0 0 8px;
+	background:#b40013;
+	text-transform:uppercase;
+}
+
+.block-title {
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 30px;
+/*	color:#ffffff; */
+	border-radius:8px 8px 0 0;
+	padding:0 0 0 8px;
+/*	background:#b40013; */
 	text-transform:uppercase;
 }
 
@@ -378,7 +408,7 @@ h2.block-title {
 }
 
 .poll .vote-form .choices .title {
-    font:normal 14px/17px Calibri;
+    font:italic 14px/17px Calibri;
 }
 
 .delta li {
