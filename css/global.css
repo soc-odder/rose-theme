@@ -400,8 +400,9 @@ h2.block-title {
 }
 
 /* Polling items
-.poll .vote-form .choices .form-item #edit-choice.form-radios .form-item {
-	padding: 0 10px 0 10px;
+.poll .vote-form .choices .form-item div#edit-choice.form-radios {
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .delta li {
