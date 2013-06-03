@@ -400,7 +400,7 @@ h2.block-title {
 }
 
 /* Polling items
-.poll .vote-form .choices .form-item {
+.poll .vote-form .choices .edit-choice .form-radios .form-item {
 	padding: 0 10px 0 10px;
 }
 
