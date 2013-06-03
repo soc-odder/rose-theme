@@ -1,13 +1,7 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
-/* base.css */
-
 @charset "utf-8";
 
-/* module.css */
-
-@charset "utf-8";
-/* CSS Document */
 .sideright {
 	float:left;
 	padding:0 0 0 22px;
@@ -30,7 +24,7 @@
 /* next_tips.css */
 
 .givemig {
-	font:normal 12px/20px givemig;
+	font:normal 12px/20px Calibri;
 	color:#000;
 }
 
