@@ -1,5 +1,10 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
 
+/*
+
+ALL CLASSES HERE ARE DISABLED IN ORDER TO REDUCE COMPLEXITY DURING BUGFIX.
+ALL OR PART WILL BE RE-ENABLED DURING TEST ON WIDE SCREENS
+
 @charset "utf-8";
 
 .sideright {
@@ -79,3 +84,4 @@
 	padding:0 0 15px 0;
 	width:640px;
 }
+*/
