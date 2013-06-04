@@ -21,8 +21,6 @@
 	margin:27px 0 0 0;
 }
 
-/* next_tips.css */
-
 .givemig {
 	font:normal 12px/20px Calibri;
 	color:#000;
@@ -31,8 +29,6 @@
 .givemig input {
 	margin:0 5px 0 0;
 }
-
-/* themes.css */
 
 .banner_title_font {
 	padding:25px 0 0 0;
@@ -45,8 +41,6 @@
 .search_pos2 {
 	left:160px;
 }
-
-/* KandidatFixCss */
 
 .place_text {
 	margin-right: -30px;
@@ -64,12 +58,6 @@
 	margin-top: -2px;
 }
 
-/*
-.ole_info p {
-	padding:0 50px 0 0;
-	height:240px;
-}
-*/
 .views-row-1 {
 	width:380px;
 }

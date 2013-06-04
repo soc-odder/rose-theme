@@ -6,6 +6,51 @@
 
 .logo-img {
 	width:690px;
+	height:70px;
+	float:left;
+	display:block;	
+}
+
+.sideright {
+	float:right;
+	display:block;
+	width:197px;
+	background:url(../images/sidebg.jpg) repeat-y;
+	height:270px;
+	margin-right:2px;
+	margin-bottom:40px;
+}
+
+.search_pos {
+	float:right;
+	position:absolute;
+	padding-top: 25px;
+	left:710px;
+}
+.search_pos2 {
+	float:right;
+	position:absolute;
+	left:710px;
+}
+
+.sideright {
+	float:right;
+	display:block;
+	width:197px;
+	background:url(../images/sidebg.jpg) repeat-y;
+	height:270px;
+	margin-right:2px;
+	margin-bottom:40px;
+}
+
+.header_right {
+	float:left;
+	display:block;
+	width:220px;
+}
+
+.main {
+	width:940px;
 }
 
 .nav {
