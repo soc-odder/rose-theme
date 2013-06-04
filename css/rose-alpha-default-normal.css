@@ -1,27 +1,20 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
- 
-/* base.css */
 
 @charset "utf-8";
-
-/*header*/
 
 .logo-img {
 	width:690px;
 }
 
-/*nav*/
 .nav {
 	width:960px;
 }
-/*footer*/
+
 .footer {
 	width:960px;
 }
-
-/* module.css */
 
 .sidebar_img {
 	width:721px;
@@ -56,8 +49,6 @@
 	width:200px;
 }
 
-/* themes.css */
-
 .banner {
 	width:a;
 }
@@ -73,8 +64,6 @@
 ul.inline li {
     padding: 0 1.55em;
 }
-
-/* KandidatFixCss */
 
 .place_text {
 	margin-right: -30px;
@@ -93,12 +82,7 @@ ul.inline li {
 .kanlaumain {
 	margin-right: -450px;
 }
-/*
-.ole_info p {
-	padding:0 50px 0 0;
-	margin-left:70px;
-}
-*/
+
 .field-name-field-politisk-titel {
 	padding-left: 70px;
 	margin-left:0px;
