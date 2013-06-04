@@ -150,7 +150,15 @@ body {
 	width:721px;
 	height:270px;
 }
-
+.sideright {
+	float:right;
+	display:block;
+	width:197px;
+	background:url(../images/sidebg.jpg) repeat-y;
+	height:270px;
+	margin-right:2px;
+	margin-bottom:40px;
+}
 .sidetext p {
 	font:italic 18px/20px Calibri;
 	color:#222221;
