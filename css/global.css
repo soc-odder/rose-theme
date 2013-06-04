@@ -43,19 +43,19 @@ body {
 	padding-top: 25px;
 }
 
-.contact {
+#block-menu-menu-soc-odder-contact {
+    float:right;
 	font:normal 8px/22px Calibri;
-	height:33px;
+	width: 214px;
 }
-.contact a {
-	color:#9c9b9b;
-	padding:0 0 0 43px;
-	text-decoration:none;
+
+#block-menu-menu-soc-odder-contact li {
+     display: inline;
 }
 
 /* SEARCH BOX */
 
-.search {
+#block-search-form {
 	border:1px solid #cdcdcd;
 	height:25px;
 	padding:0 0 0 8px;
@@ -63,14 +63,14 @@ body {
 	border-radius:8px;
 	background:#ffffff;
 }
-.search span {
+#block-search-form .form-type-textfield {
 	float:left;
 	display:block;
 	width:177px;
 	height:15px;
 	margin: 0 0 0 0;
 }
-.search span input {
+#block-search-form .form-type-textfield input {
 	font:normal 14px Calibri;
 /*	color:#9C9B9B; */
 	width:170px;
@@ -78,7 +78,7 @@ body {
 	margin-left: -4px;
 	border:none;
 }
-.search a input {
+#block-search-form .form-actions input {
     background: none repeat scroll 0 0 #9C9B9B;
     border-radius: 0 8px 8px 0;
     color: #FFFFFF;
