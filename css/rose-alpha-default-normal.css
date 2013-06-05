@@ -1,35 +1,26 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
- 
-/* base.css */
 
 @charset "utf-8";
-
-/*header*/
 
 .logo-img {
 	width:690px;
 }
-
-/*nav*/
 .nav {
 	width:960px;
 }
-/*footer*/
 .footer {
 	width:960px;
 }
 
-/* module.css */
-
 .sidebar_img {
 	width:721px;
 }
+
 .sideright {
-	float:right;
+/*	margin-right:2px; */
 	margin-right:-320px;
-	margin-bottom:40px;
 }
 
 .ipsum a {
@@ -42,6 +33,7 @@
 .leftblock{
 	width:335px;
 }
+
 .corner {
 	width:200px;
 	margin-left:165px;
@@ -52,20 +44,9 @@
 	margin-left:165px;
 }
 
-.deltager {
-	width:200px;
-}
-
-/* themes.css */
-
-.banner {
-	width:a;
-}
-
 .search_pos {
 	left:730px;
 }
-
 .search_pos2 {
 	left:160px;
 }
@@ -73,8 +54,6 @@
 ul.inline li {
     padding: 0 1.55em;
 }
-
-/* KandidatFixCss */
 
 .place_text {
 	margin-right: -30px;
@@ -93,12 +72,7 @@ ul.inline li {
 .kanlaumain {
 	margin-right: -450px;
 }
-/*
-.ole_info p {
-	padding:0 50px 0 0;
-	margin-left:70px;
-}
-*/
+
 .field-name-field-politisk-titel {
 	padding-left: 70px;
 	margin-left:0px;
@@ -110,4 +84,12 @@ ul.inline li {
 
 .field-name-field-my-focus p {
 	padding:0 50px 15px 70px;
+}
+
+.deltager {
+	width:200px;
+}
+
+.banner {
+	width:a;
 }

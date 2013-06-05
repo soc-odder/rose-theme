@@ -1,12 +1,11 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
 
-/* base.css */
+/*
+
+ALL CLASSES HERE ARE DISABLED IN ORDER TO REDUCE COMPLEXITY DURING BUGFIX.
+ALL OR PART WILL BE RE-ENABLED DURING TEST ON WIDE SCREENS
 
 @charset "utf-8";
-
-
-
-/* module.css */
 
 .sideright {
 	padding:0 0 0 22px;
@@ -32,8 +31,6 @@
 	margin:27px 0 0 0;
 	margin-left:20px;
 }
-
-/* themes.css */
 
 .banner {
 	width:980px;
@@ -76,16 +73,6 @@
 	padding:0 7px 0 0;
 	margin-left:70px;
 }
-/*
-.ole_info {
-	padding:0 50px 0 70px;
-}
-
-.ole_info p {
-	padding:0 50px 15px 0;
-	margin-left:0px;
-}
-*/
 .field-name-field-politisk-titel {
 	padding-left:0px;
 }
@@ -97,3 +84,4 @@
 	padding:0 0 15px 0;
 	width:640px;
 }
+*/
