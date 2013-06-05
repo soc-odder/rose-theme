@@ -2,21 +2,17 @@
 
 @charset "utf-8";
 
-.sideright {
-	float:left;
-	padding:0 0 0 22px;
-	margin-right:-228px;
-}
-
+/* DEFAULT */
+/*
 .ipsum a {
 	margin-left:525px;
 }
-
+*/
 .teamlist {
 	width:90px;
 	margin:10px 0 0 0;
 }
-
+/*
 .kalender2 {
 	margin:27px 0 0 0;
 }
@@ -57,11 +53,11 @@
 .banner_bis {
 	margin-top: -2px;
 }
-
-.views-row-1 {
-	width:380px;
+*/
+.front .views-row-1.teamlist {
+  width:380px;
 }
-
+/*
 .personlig {
 	width:260px;
 }
@@ -71,5 +67,276 @@
 }
 
 .field-name-field-my-focus p {
+	width:640px;
+}
+*/
+/* NARROW */
+/*
+.logo-img {
+	width:490px;
+	height:70px;
+	padding:0 0 30px;
+	float:left;
+	display:block;
+	padding-top: 25px;
+}
+
+.sidebar_img {
+	width:702px;
+	overflow:hidden;
+}
+.sideright {
+	float:right;
+	margin-right:-460px;
+	margin-bottom:40px;
+}
+.ipsum {
+	padding-left:80px;
+}
+.ipsum a {
+	margin-left:598px;
+}
+.midblock{
+	width:360px;
+	margin-left:150px;
+}
+.leftblock{
+	width:310px;
+}
+.corner {
+	width:190px;
+	float:left;
+	display:block;
+	margin-left:285px;
+	margin-top:0px;
+}
+.kalender2 {
+	margin-top:20px;
+	margin-left:285px;
+}
+
+.search_pos {
+	left:720px;
+}
+.search_pos2 {
+	left:180px;
+}
+ul.inline li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 1.49em;
+}
+
+.place_text {
+	margin-right: -170px;
+}
+.place_text2 {
+	margin-right: -715px;
+}
+.place_text2 p {
+	margin-right: 115px;
+}
+.banner_bis {
+	width:700px;
+}
+.kanlaumain {
+	margin-right: -570px;
+}
+
+.ole_title {
+	padding-left:70px;
+}
+*/
+.field-name-field-politisk-titel {
+	margin-left:130px;
+}
+.field-name-field-my-focus {
+	padding:0 50px 15px 130px;
+}
+
+/* NORMAL */
+
+.logo-img {
+	width:690px;
+	height:70px;
+	float:left;
+	display:block;	
+}
+
+.sideright {
+	float:left;
+	display:block;
+	width:197px;
+	background:url(../images/sidebg.jpg) repeat-y;
+	height:270px;
+	margin-right:2px;
+	margin-bottom:40px;
+}
+.sidebar_img {
+	width:721px;
+  height:270px;
+  float:left;
+  display:block;
+}
+
+.search_pos {
+	position:absolute;
+	margin-top: 35px;
+	left:710px;
+}
+
+#block-menu-menu-soc-odder-contact {
+	position:absolute;
+	margin-top: 15px;
+	left:730px;
+}
+
+.search_pos2 {
+	float:right;
+	position:absolute;
+	left:710px;
+}
+
+.header_right {
+	float:left;
+	display:block;
+	width:220px;
+}
+
+.main {
+	width:940px;
+}
+
+.navigation {
+	width:960px;
+}
+/*
+.footer {
+	width:960px;
+}
+*/
+.ipsum a {
+	margin-left:620px;
+}
+/*
+.midblock{
+	margin-left:110px;
+}
+.leftblock{
+	width:335px;
+}
+*/
+.corner {
+	width:200px;
+	margin-left:165px;
+}
+/*
+.kalender2 {
+	margin-top:27px;
+	margin-left:165px;
+}
+*/
+.deltager {
+	width:200px;
+}
+
+.search_pos {
+	left:730px;
+}
+
+.search_pos2 {
+	left:160px;
+}
+
+ul.inline li {
+    padding: 0 1.55em;
+}
+
+.place_text {
+	margin-right: -30px;
+}
+
+.place_text2 {
+	margin-right: -455px;
+}
+.place_text2 p {
+	margin-right: -5px;
+}
+
+.banner_bis {
+	width:980px;
+}
+.kanlaumain {
+	margin-right: -450px;
+}
+/*
+.field-name-field-politisk-titel {
+	padding-left: 70px;
+	margin-left:0px;
+}
+
+.field-name-field-my-focus {
+	padding:0 50px 15px 0;
+}
+
+.field-name-field-my-focus p {
+	padding:0 50px 15px 70px;
+}
+*/
+/* WIDE */
+
+.ipsum a {
+	margin-left:585px;
+}
+
+.corner {
+	width:200px;
+	margin-left:20px;
+}
+
+.banner {
+	width:980px;
+}
+.banner_title_font {
+	height:30px;
+}
+
+.region-user-first {
+	width:690px;
+}
+.search_pos {
+	left:720px;
+}
+.search_pos2 {
+	left:10px;
+}
+
+.place_text {
+	margin-right: 90px;
+}
+.place_text2 p {
+	margin-right: 115px;
+}
+.kanlaumain {
+	margin-right: -320px;
+}
+
+.link_sign {
+	padding:13px 0 0 0;
+	font:normal 11px Calibri;
+	margin-left: -60px;
+	margin-top: 170px;
+	float:left;
+}
+.link_sign a {
+	color:#b40014;
+	padding:0 7px 0 0;
+	margin-left:70px;
+}
+.field-name-field-politisk-titel {
+	padding-left:0px;
+}
+.field-name-field-my-focus {
+	padding:0 0 15px 0;
 	width:640px;
 }
