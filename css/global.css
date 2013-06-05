@@ -32,7 +32,6 @@ body {
 	background:#ffffff;
 }
 .main {
-/*	width: 940px; */
 	margin:0 auto;
 }
 /*header*/
@@ -40,11 +39,7 @@ body {
 	height:103px;
 }
 .logo-img {
-/*	width:690px;
-	height:70px; */
 	padding:0 0 30px;
-/*	float:left;
-	display:block; */
 	padding-top: 25px;
 }
 
