@@ -32,7 +32,7 @@ body {
 	background:#ffffff;
 }
 .main {
-	width: 940px;
+/*	width: 940px; */
 	margin:0 auto;
 }
 /*header*/
@@ -40,16 +40,16 @@ body {
 	height:103px;
 }
 .logo-img {
-	width:690px;
-	height:70px;
+/*	width:690px;
+	height:70px; */
 	padding:0 0 30px;
-	float:left;
-	display:block;
+/*	float:left;
+	display:block; */
 	padding-top: 25px;
 }
 
 #block-menu-menu-soc-odder-contact {
-    float:right;
+/*    float:right; */
 	font:normal 8px/22px Calibri;
 	width: 214px;
 }
