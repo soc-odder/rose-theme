@@ -1,0 +1,324 @@
+/*===================================================================
+   This stylesheet uses {less}, the dynamic stylesheet language ;]
+=====================================================================*/
+
+/* CONFIG ==========================*/
+
+@rose-color: #b40013;
+@block-background: #d9d9d9;
+
+/* PRESETS ==========================*/
+
+.border-radius(@tl: 5px, @tr: 5px, @bl: 5px, @br: 5px) {
+  border-top-left-radius:             @tl;
+  border-top-right-radius:            @tr;
+  border-bottom-right-radius:         @br;
+  border-bottom-left-radius:          @bl;
+  -webkit-border-top-left-radius:     @tl;
+  -webkit-border-top-right-radius:    @tr;
+  -webkit-border-bottom-right-radius: @br;
+  -webkit-border-bottom-left-radius:  @bl;
+  -moz-border-radius-topleft:         @tl;
+  -moz-border-radius-topright:        @tr;
+  -moz-border-radius-bottomright:     @br;
+  -moz-border-radius-bottomleft:      @bl; }
+
+.border-radius-all(@radius: 5px) {
+  border-radius:         @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius:    @radius;
+  -o-border-radius:      @radius;
+  -khtml-border-radius:  @radius;
+}
+
+/* LAYOUT ETC ==========================*/
+
+body {
+  font-family: Calibri, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: #B40014;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 17px;
+  color: @rose-color;
+  text-transform: uppercase;
+}
+
+h2, h2.node-title {
+  font-size: 15px;
+  color: @rose-color;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 13px;
+  color: @rose-color;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+/* BRANDING */
+
+.logo-img {
+  padding:25px 0 30px;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  .border-radius-all(8px);
+  background:@rose-color;
+}
+#main-menu li {
+  float:left;
+  display:block;
+  font-weight:bold;
+  font-size:17px;
+  line-height:40px;
+  padding:0 34px;
+  text-transform:uppercase;
+  border-right: 2px solid #9E0112;
+}
+#main-menu li a {
+  color:#ffffff;
+  text-decoration: none;
+  text-transform:uppercase;
+}
+#main-menu li.last {
+  border-right:none;
+}
+
+/* CONTACT MENU */
+
+#block-menu-menu-soc-odder-contact {
+  font-size: 8px;
+  line-height: 22px;
+  width: 214px;
+}
+
+#block-menu-menu-soc-odder-contact li {
+  display: inline;
+}
+
+/* SEARCH BOX */
+
+#block-search-form {
+  border:1px solid #cdcdcd;
+  height:25px;
+  padding:0 0 0 8px;
+  width:214px;
+  .border-radius-all(8px);
+  background:#ffffff;
+}
+#block-search-form .form-type-textfield {
+  float:left;
+  display:block;
+  width:177px;
+  height:15px;
+  margin: 0 0 0 0;
+}
+#block-search-form .form-type-textfield input {
+  width:170px;
+  outline:none;
+  margin-left: -4px;
+  border:none;
+}
+#block-search-form .form-actions input {
+  background: none repeat scroll 0 0 #9C9B9B;
+  .border-radius(0, 8px, 0, 8px);
+  color: #FFFFFF;
+  display: block;
+  float: right;
+  height: 26.5px;
+  margin-top: -16.5px;
+  margin-right: -1px;
+  text-align: center;
+  text-shadow: none;
+  width: 42px;
+  padding-top: 5px;
+}
+
+/* FOOTER */
+
+.footer {
+  background:#d9d9d9;
+  padding:10px 0 10px 0;
+  margin:30px 0 0 0;
+  .border-radius-all(8px);
+}
+
+.footer p {
+  text-align:center;
+}
+
+/* BLOCKS */
+.block-title {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+  color:@rose-color;
+  text-transform:uppercase;
+  background: transparent;
+  padding-bottom: 5px;
+}
+
+.front .stories .block-title, .front .candidates .block-title {
+  .border-radius(8px, 8px, 0, 0);
+  padding:0 0 0 8px;
+  background:@rose-color;
+  color: white;
+}
+
+.front .calendar, .front .poll {
+  .border-radius(8px);
+  background:@block-background;
+  padding: 3px 15px 15px 10px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+/* STORIES - FRONTPAGE */
+
+.containerbox {
+  border-bottom:1px dotted #b0b0b0;
+  position:relative;
+  padding:15px 0 10px 0;
+}
+
+.plan {
+  color:#b40014;
+  margin-bottom:5px;
+}
+.plan a {
+  font-weight:bold;
+  font-size: 13px;
+  line-height: 15px;
+  color:@rose-color;
+  margin-bottom:5px;
+  text-transform:uppercase;
+}
+.plan h3 {
+  font-weight:bold;
+  font-size: 13px;
+  line-height:15px;
+  color:@rose-color;
+  margin-bottom:5px;
+  text-transform:uppercase;
+}
+
+.comment-count {
+  background:url(../images/num.png) no-repeat;
+  width:27px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 26px;
+  text-align:center;
+  height:27px;
+  position:absolute;
+  right:0;
+  top:18px;
+  color:@rose-color;
+}
+.comment-count a {
+  color:@rose-color;
+}
+
+/* CANDIDATES FRONTPAGE */
+
+.teamlist {
+  float:left;
+  display:block;
+  width:100px;
+  height:118px;
+  margin:10px 13px 0 0;
+}
+
+.teamlist.views-row-1 {
+  width: 100%;
+}
+
+/* LAYOUT FOR CANDIDATES */
+.banner {
+  height:245px;
+  background:url(../images/banner_bg.jpg) repeat-y;
+  background-size:100%;
+  padding-bottom:20px;
+  margin-bottom:30px;
+}
+.banner_top {
+  display:block;
+  padding:20px 30px 0 70px;
+  height:235px;
+  float:left;
+}
+.banner_right {
+  float:left;
+  display:block;
+  width:500px;
+  margin-top: 40px;
+  padding:0 0 0 20px;
+}
+
+h1.candidate {
+  padding-top:30px;
+}
+
+.social {
+  float: left;
+  padding: 0 13px 0 0;
+}
+
+/* ARBEJDSPROGRAM */
+.municipal {
+  .views-row {
+    float: left;
+    padding:15px;
+    height:130px;
+    position:relative;
+    .border-radius(8px);
+    margin-bottom: 10px;
+  }
+  .views-row-odd {
+    background:#e5e5e5;
+  }
+  .views-row-even {
+    background:#aaaaaa;
+  }
+  .field-name-field-picture {
+    float:left;
+    display:block;
+    height:130px;
+    width:88px;
+    margin-right:10px;
+  }
+  .comment-count {
+    right:5px;
+  }
+}
+
+/* COMMENTS */
+
+article.comment {
+  margin-bottom: 10px;
+  padding: 1em;
+  border: #ccc 2px solid;  
+}
+
+article.comment.comment-by-viewer {
+  border: @rose-color 2px solid;
+}
+
+div#comments article:nth-child(odd) {
+  background: #ccc;
+}
+
+div#comments article:nth-child(even) {
+  background: #ddd;
+}
