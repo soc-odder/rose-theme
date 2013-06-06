@@ -4,3 +4,15 @@
  *  and widescreen CSS files as appropriate. */
 
 @charset "utf-8";
+
+.front .sidetext p {
+  padding:25px 25px 0 15px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 2em;
+}
+
+.sidebar_img {
+  width:700px;
+  overflow: hidden;
+}
