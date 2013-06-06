@@ -1,3 +1,21 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
 @charset "utf-8";
+
+/* FRONTPAGE - MISSION */
+
+.sideright {
+  float:left;
+  display:block;
+  width:197px;
+  background:url(../images/sidebg.jpg) repeat-y;
+  height:270px;
+  margin-bottom:40px;
+}
+
+.sidebar_img {
+  float:left;
+  display:block;
+  width:721px;
+  height:270px;
+}
