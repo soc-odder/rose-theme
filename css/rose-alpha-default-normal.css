@@ -11,13 +11,3 @@
 .sidebar_img {
   float:left;
 }
-
-.sideright {
-  width: 210px;
-  float:left;
-  display:block;
-  background:url(../images/sidebg.jpg) repeat-y;
-  background-size: 100%;
-  height:270px;
-  margin-bottom:40px;
-}

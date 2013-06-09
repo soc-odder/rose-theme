@@ -13,6 +13,10 @@
 
 .sidebar_img {
   display:block;
-  width:721px;
+  width:720px;
   height:270px;
+}
+
+.sideright {
+    background: url("../images/sidebg.jpg") repeat-y scroll 0 0 / 100% auto transparent;
 }

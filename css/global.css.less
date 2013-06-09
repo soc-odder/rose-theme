@@ -6,6 +6,9 @@
 
 @rose-color: #b40013;
 @block-background: #d9d9d9;
+@commentcount-width: 27px;
+// Note, I believe this is maintained in Drupal backend 
+@stories-width: 300px;
 
 /* PRESETS ==========================*/
 
@@ -31,16 +34,48 @@
   -khtml-border-radius:  @radius;
 }
 
+// Making sure padding (and border size) are allocated INSIDE the box. Thanks to http://css-tricks.com/box-sizing/
+.borderbox(@pt: 5px, @pr: 5px, @pb: 5px, @pl: 5px) { 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* IE 8+ */
+	padding-top:					@pt;
+	padding-right:					@pr;
+	padding-bottom:					@pb;
+	padding-left:					@pl;
+}
+
 /* LAYOUT ETC ==========================*/
 
 body {
+	font-size: 14px;
+}
+
+body, h2.block-title, h3.plan {
   font-family: Calibri, sans-serif;
+  letter-spacing: 0.00em;
+}
+
+h3.plan {
+	margin-bottom: 0px;
+	width: (@stories-width - @commentcount-width - 10)
+}
+
+h2.block-title {
+	font-size: 17px;
+	color: @rose-color;
+}
+
+em {
+	font-size: 12px;
+    font-style: italic;
 }
 
 a {
   color: @rose-color;
   text-decoration: none;
 }
+
 a:link, a:visited {
   color: @rose-color;
   text-decoration: none;
@@ -68,7 +103,7 @@ h3 {
 /* BRANDING */
 
 .logo-img {
-  padding:25px 0 30px;
+  padding: 15px 0 10px;
 }
 
 /* NAVIGATION */
@@ -77,6 +112,7 @@ h3 {
   .border-radius-all(8px);
   background:@rose-color;
 }
+
 #main-menu li {
   float:left;
   display:block;
@@ -87,11 +123,13 @@ h3 {
   text-transform:uppercase;
   border-right: 2px solid #9E0112;
 }
+
 #main-menu li a {
   color:#ffffff;
   text-decoration: none;
   text-transform:uppercase;
 }
+
 #main-menu li.last {
   border-right:none;
 }
@@ -99,7 +137,7 @@ h3 {
 /* CONTACT MENU */
 
 #block-menu-menu-soc-odder-contact {
-  font-size: 8px;
+  font-size: 12px;
   line-height: 22px;
   width: 214px;
 }
@@ -108,51 +146,60 @@ h3 {
   display: inline;
 }
 
+ul.menu {
+	text-align: right;
+	padding-bottom: 5px;
+}
 /* SEARCH BOX */
 
 #block-search-form {
   border:1px solid #cdcdcd;
-  height:25px;
-  padding:0 0 0 8px;
-  width:214px;
+  height:27px;
+  .borderbox(0, 0, 0, 4px);
+  width:220px;
   .border-radius-all(8px);
   background:#ffffff;
 }
+
 #block-search-form .form-type-textfield {
   float:left;
   display:block;
-  width:177px;
-  height:15px;
   margin: 0 0 0 0;
 }
+
 #block-search-form .form-type-textfield input {
-  width:170px;
+  width:168px;
   outline:none;
-  margin-left: -4px;
+  margin-left: 0px;
   border:none;
 }
+
 #block-search-form .form-actions input {
   background: none repeat scroll 0 0 #9C9B9B;
-  .border-radius(0, 8px, 0, 8px);
+  .border-radius(0, 7px, 0, 7px);
   color: #FFFFFF;
   display: block;
   float: right;
-  height: 26.5px;
-  margin-top: -16.5px;
-  margin-right: -1px;
+  height: 25px;
+  margin-right: 0px;
+  border-width: 0px;
   text-align: center;
   text-shadow: none;
   width: 42px;
-  padding-top: 5px;
+  .borderbox(5px, 0, 5px, 0);
+}
+
+.form-type-textfield {
+	.borderbox(0, 4px, 0, 0);
 }
 
 /* FOOTER */
 
 .footer {
   background:#d9d9d9;
-  padding:10px;
-  margin:30px 0 0 0;
-  .border-radius-all(8px);
+  // This 30px should really be 10px, but with out the ability to remove the <p>-tag in the footer text this number centers it vertically
+  .borderbox(30px, 0, 10px, 0);
+  margin: 30px 0 0 0;
 }
 
 .footer p {
@@ -169,7 +216,20 @@ h3 {
   text-align: center;
 }
 
+.sideright {
+	// For some reason this background setting isn't applied. It's been moved to -default.css
+    // background: url("../images/sidebg.jpg") repeat-y scroll 0 0 / 100% auto transparent;
+    display: block;
+    float: left;
+    height: 270px;
+    margin-bottom: 40px;
+    .borderbox(0px, 0px, 0px, 0px);
+    width: 220px;
+}
+
 /* BLOCKS */
+
+
 .block-title {
   font-weight: bold;
   font-size: 17px;
@@ -177,22 +237,52 @@ h3 {
   color:@rose-color;
   text-transform:uppercase;
   background: transparent;
-  padding-bottom: 5px;
+  padding: 0 8px 0 8px;
+}
+
+.date-display-single {
+	margin-top: 5px;
+	border-bottom: 1px dashed #B0B0B0;
+	font-weight: normal;
+	font-style: italic;
 }
 
 .front .stories .block-title, .front .candidates .block-title {
   .border-radius(8px, 8px, 0, 0);
-  padding:0 0 0 8px;
   background:@rose-color;
   color: white;
 }
 
 .front .calendar, .front .poll {
-  .border-radius(8px);
-  background:@block-background;
-  padding: 3px 15px 15px 10px;
-  width: 90%;
+  .border-radius-all(8px);
+  .borderbox(0, 0, 8px, 0);
+  background: @block-background;
+  width: 220px;
   margin-bottom: 20px;
+}
+
+.front .calendar .view-content, .front .poll .poll {
+	.borderbox(0px, 8px, 0px, 8px);
+	.border-radius-all(0px);
+}
+
+.poll .vote-form .choices .title {
+    font-weight: normal;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.form-item-choice {
+    margin: 14px 0 14px 0;
+    .borderbox(0, 8px, 0, 8px);
+}
+
+ul.links {
+	margin-bottom: 0px;
+}
+
+ul.links li {
+	list-style: none;
 }
 
 /* STORIES - FRONTPAGE */
@@ -203,18 +293,25 @@ h3 {
   padding:15px 0 10px 0;
 }
 
+/* Aimed at dates in stories view */
+.front .stories .project {
+	padding-top: 8px;
+}
+
 .plan {
   color:@rose-color;
   margin-bottom:5px;
 }
+
 .plan a {
   font-weight:bold;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 15px;
   color:@rose-color;
   margin-bottom:5px;
   text-transform:uppercase;
 }
+
 .plan h3 {
   font-weight:bold;
   font-size: 13px;
@@ -226,7 +323,7 @@ h3 {
 
 .comment-count {
   background:url(../images/num.png) no-repeat;
-  width:27px;
+  width: @commentcount-width;
   font-weight: bold;
   font-size: 12px;
   line-height: 26px;
@@ -234,9 +331,10 @@ h3 {
   height:27px;
   position:absolute;
   right:0;
-  top:18px;
+  top:15px;
   color:@rose-color;
 }
+
 .comment-count a {
   color:@rose-color;
 }
@@ -246,9 +344,9 @@ h3 {
 .teamlist {
   float:left;
   display:block;
-  width:100px;
+  width:95px;
   height:118px;
-  margin:10px 13px 0 0;
+  margin:10px 0 0 0;
 }
 
 .teamlist.views-row-1 {
@@ -256,6 +354,7 @@ h3 {
 }
 
 /* LAYOUT FOR CANDIDATES */
+
 .banner {
   height:245px;
   background:url(../images/banner_bg.jpg) repeat-y;
