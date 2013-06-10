@@ -9,6 +9,7 @@
 @commentcount-width: 27px;
 // Note, I believe this is maintained in Drupal backend 
 @stories-width: 300px;
+@cornerrounding: 6px;
 
 /* PRESETS ==========================*/
 
@@ -104,6 +105,13 @@ a:link, a:visited {
   text-decoration: none;
 }
 
+.banner {
+	height:270px;
+	background-size: 100%;
+	.borderbox(0, 0, 0, 0);
+	margin-bottom: 30px;
+}
+
 /* BRANDING */
 
 .logo-img {
@@ -117,41 +125,41 @@ img {
 /* NAVIGATION */
 
 .navigation {
-  .border-radius-all(8px);
+  .border-radius(@cornerrounding, @cornerrounding, 0, 0);
   background:@rose-color;
 }
 
 #main-menu li {
-  float:left;
-  display:block;
-  font-weight:bold;
-  font-size:17px;
-  line-height:40px;
-  padding:0 34px;
-  text-transform:uppercase;
-  border-right: 2px solid #9E0112;
+	float: left;
+	display: block;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 40px;
+	padding: 0 34px;
+	text-transform: uppercase;
+	border-right: 2px solid #9E0112;
 }
 
 #main-menu li a {
-  color:#ffffff;
-  text-decoration: none;
-  text-transform:uppercase;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 #main-menu li.last {
-  border-right:none;
+	border-right:none;
 }
 
 /* CONTACT MENU */
 
 #block-menu-menu-soc-odder-contact {
-  font-size: 12px;
-  line-height: 22px;
-  width: 214px;
+	font-size: 12px;
+	line-height: 22px;
+	width: 214px;
 }
 
 #block-menu-menu-soc-odder-contact li {
-  display: inline;
+	display: inline;
 }
 
 ul.menu {
@@ -161,39 +169,39 @@ ul.menu {
 /* SEARCH BOX */
 
 #block-search-form {
-  border:1px solid #cdcdcd;
-  height:27px;
-  .borderbox(0, 0, 0, 4px);
-  width:220px;
-  .border-radius-all(8px);
-  background:#ffffff;
+	border:1px solid #cdcdcd;
+	height:27px;
+	.borderbox(0, 0, 0, 4px);
+	width:220px;
+	.border-radius-all(@cornerrounding);
+	background:#ffffff;
 }
 
 #block-search-form .form-type-textfield {
-  float:left;
-  display:block;
-  margin: 0 0 0 0;
+	float:left;
+	display:block;
+	margin: 0 0 0 0;
 }
 
 #block-search-form .form-type-textfield input {
-  width:168px;
-  outline:none;
-  margin-left: 0px;
-  border:none;
+	width: 168px;
+	outline: none;
+	margin-left: 0px;
+	border: none;
 }
 
 #block-search-form .form-actions input {
-  background: none repeat scroll 0 0 #9C9B9B;
-  .border-radius(0, 7px, 0, 7px);
-  color: #FFFFFF;
-  display: block;
-  float: right;
-  height: 25px;
-  margin-right: 0px;
-  border-width: 0px;
-  text-align: center;
-  text-shadow: none;
-  width: 42px;
+	background: none repeat scroll 0 0 #9C9B9B;
+	.border-radius(0, (@cornerrounding - 1), 0, (@cornerrounding - 1));
+	color: #FFFFFF;
+	display: block;
+	float: right;
+	height: 25px;
+	margin-right: 0px;
+	border-width: 0px;
+	text-align: center;
+	text-shadow: none;
+	width: 42px;
 }
 
 .form-type-textfield {
@@ -204,7 +212,7 @@ ul.menu {
 
 .footer {
   background:#d9d9d9;
-  // This 30px should really be 10px, but with out the ability to remove the <p>-tag in the footer text this number centers it vertically
+  // This 30px should really be 10px, but without the ability to remove the <p>-tag in the footer text this number centers it vertically
   .borderbox(30px, 0, 10px, 0);
   margin: 30px 0 0 0;
 }
@@ -216,11 +224,11 @@ ul.menu {
 /* FRONTPAGE - MISSION */
 
 .front .sidetext p {
-  font:italic 18px/20px Calibri;
-  color:#222221;
-  padding:15px 15px 0 15px;
-  vertical-align: middle;
-  text-align: center;
+	font: italic 18px/20px Calibri;
+	color: #222221;
+	padding: 15px 15px 0 15px;
+	vertical-align: middle;
+	text-align: center;
 }
 
 .sideright {
@@ -238,13 +246,13 @@ ul.menu {
 
 
 .block-title {
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 30px;
-  color:@rose-color;
-  text-transform:uppercase;
-  background: transparent;
-  padding: 0 8px 0 8px;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 30px;
+	color:@rose-color;
+	text-transform:uppercase;
+	background: transparent;
+	padding: 0 8px 0 8px;
 }
 
 .date-display-single {
@@ -255,17 +263,17 @@ ul.menu {
 }
 
 .front .stories .block-title, .front .candidates .block-title {
-  .border-radius(8px, 8px, 0, 0);
-  background:@rose-color;
-  color: white;
+	.border-radius(@cornerrounding, @cornerrounding, 0, 0);
+	background:@rose-color;
+	color: white;
 }
 
 .front .calendar, .front .poll {
-  .border-radius-all(8px);
-  .borderbox(0, 0, 8px, 0);
-  background: @block-background;
-  width: 220px;
-  margin-bottom: 20px;
+	.border-radius-all(@cornerrounding);
+	.borderbox(0, 0, 8px, 0);
+	background: @block-background;
+	width: 220px;
+	margin-bottom: 20px;
 }
 
 .front .calendar .view-content, .front .poll .poll {
@@ -280,7 +288,7 @@ ul.menu {
 }
 
 input[type="submit"] {
-	.border-radius-all(8px);
+	.border-radius-all(@cornerrounding);
 	height: 30px;
 }
 
@@ -300,9 +308,9 @@ ul.links li {
 /* STORIES - FRONTPAGE */
 
 .containerbox {
-  border-bottom:1px dotted #b0b0b0;
-  position:relative;
-  padding:15px 0 10px 0;
+	border-bottom: 1px dotted #b0b0b0;
+	position: relative;
+	padding: 15px 0 10px 0;
 }
 
 /* Aimed at dates in stories view */
@@ -311,7 +319,7 @@ ul.links li {
 }
 
 .plan {
-  color: @rose-color;
+	color: @rose-color;
 }
 
 .plan a {
@@ -345,32 +353,29 @@ ul.links li {
 }
 
 .comment-count a {
-  color:@rose-color;
+  color: @rose-color;
 }
 
 /* CANDIDATES FRONTPAGE */
 
 .teamlist {
-  float:left;
-  display:block;
-  width:95px;
-  height:118px;
-  margin:10px 0 0 0;
+	float: left;
+	display: block;
+	width: 95px;
+	height: 118px;
+	margin: 10px 0 0 0;
 }
 
 .teamlist.views-row-1 {
-  width: 100%;
+	width: 100%;
 }
 
 /* LAYOUT FOR CANDIDATES */
 
-.banner {
-	height:270px;
+.candidate-banner {
 	background:url(../images/banner_bg.jpg) repeat-y;
-	background-size: 100%;
-	.borderbox(0, 0, 0, 0);
-	margin-bottom: 30px;
 }
+
 .banner_top {
 	display: block;
 	.borderbox(27px, 0, 0, 80px);
@@ -400,15 +405,15 @@ h1.candidate {
 }
 
 .social {
-  float: left;
-  padding: 0 13px 0 0;
+	float: left;
+	padding: 0 13px 0 0;
 }
 
 .team_all {
-  background:url(../images/img_box.jpg) no-repeat;
-  width:71px;
-  height:77px;
-  padding:7px;
+	background:url(../images/img_box.jpg) no-repeat;
+	width: 71px;
+	height: 77px;
+	padding: 7px;
 }
 
 /* ARBEJDSPROGRAM */
