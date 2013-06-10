@@ -47,38 +47,13 @@
 
 /* LAYOUT ETC ==========================*/
 
-body {
+body, input[type="text"], input[type="submit"] {
 	font-size: 14px;
 }
 
-body, h2.block-title, h3.plan {
+body, h1.candidate, h2.candidate-personal, h2.candidate-political, h2.block-title, h3.plan, input[type="text"], input[type="submit"] {
   font-family: Calibri, sans-serif;
   letter-spacing: 0.00em;
-}
-
-h3.plan {
-	margin-bottom: 0px;
-	width: (@stories-width - @commentcount-width - 10)
-}
-
-h2.block-title {
-	font-size: 17px;
-	color: @rose-color;
-}
-
-em {
-	font-size: 12px;
-    font-style: italic;
-}
-
-a {
-  color: @rose-color;
-  text-decoration: none;
-}
-
-a:link, a:visited {
-  color: @rose-color;
-  text-decoration: none;
 }
 
 h1 {
@@ -93,17 +68,50 @@ h2, h2.node-title {
   text-transform: uppercase;
 }
 
+h2.block-title, h2.candidate-personal, h2.candidate-political {
+	font-size: 17px;
+	color: @rose-color;
+}
+
+h2.candidate-personal, h2.candidate-political {
+	margin-bottom: 10px;
+}
+
 h3 {
   font-size: 13px;
   color: @rose-color;
-  text-transform: uppercase;
   margin-bottom: 3px;
+}
+
+
+h3.plan {
+	margin-bottom: 0px;
+	width: (@stories-width - @commentcount-width - 10)
+}
+
+em {
+	font-size: 12px;
+    font-style: italic;
+}
+
+a {
+	color: @rose-color;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+  color: @rose-color;
+  text-decoration: none;
 }
 
 /* BRANDING */
 
 .logo-img {
   padding: 15px 0 10px;
+}
+
+img {
+	vertical-align: inherit;
 }
 
 /* NAVIGATION */
@@ -186,7 +194,6 @@ ul.menu {
   text-align: center;
   text-shadow: none;
   width: 42px;
-  .borderbox(5px, 0, 5px, 0);
 }
 
 .form-type-textfield {
@@ -272,6 +279,11 @@ ul.menu {
     padding-top: 5px;
 }
 
+input[type="submit"] {
+	.border-radius-all(8px);
+	height: 30px;
+}
+
 .form-item-choice {
     margin: 14px 0 14px 0;
     .borderbox(0, 8px, 0, 8px);
@@ -299,26 +311,23 @@ ul.links li {
 }
 
 .plan {
-  color:@rose-color;
-  margin-bottom:5px;
+  color: @rose-color;
 }
 
 .plan a {
-  font-weight:bold;
-  font-size: 14px;
-  line-height: 15px;
-  color:@rose-color;
-  margin-bottom:5px;
-  text-transform:uppercase;
+	font-weight: bold;
+	font-size: 17px;
+	color: black;
+	line-height: 15px;
 }
 
 .plan h3 {
-  font-weight:bold;
-  font-size: 13px;
-  line-height:15px;
-  color:@rose-color;
-  margin-bottom:5px;
-  text-transform:uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 15px;
+	color: @rose-color;
+	margin-bottom: 5px;
+	text-transform: uppercase;
 }
 
 .comment-count {
@@ -356,28 +365,38 @@ ul.links li {
 /* LAYOUT FOR CANDIDATES */
 
 .banner {
-  height:245px;
-  background:url(../images/banner_bg.jpg) repeat-y;
-  background-size:100%;
-  padding-bottom:20px;
-  margin-bottom:30px;
+	height:270px;
+	background:url(../images/banner_bg.jpg) repeat-y;
+	background-size: 100%;
+	.borderbox(0, 0, 0, 0);
+	margin-bottom: 30px;
 }
 .banner_top {
-  display:block;
-  padding:20px 30px 0 70px;
-  height:235px;
-  float:left;
+	display: block;
+	.borderbox(27px, 0, 0, 80px);
+	margin-right: 20px;
+	height: 270px;
+	float: left;
 }
+
+.banner_list {
+	.borderbox(0, 20px, 0, 335px);
+	// Trying to make sure the social icons and email address align with the bottom of the image
+	height: 159px;
+}
+
 .banner_right {
-  float:left;
-  display:block;
-  width:500px;
-  margin-top: 40px;
-  padding:0 0 0 20px;
+	float: left;
+	display: block;
+	width: 500px;
+	margin-top: 40px;
+	padding:0 0 0 20px;
 }
 
 h1.candidate {
-  padding-top:30px;
+	.borderbox(27px, 0, 0, 0);
+	line-height: 15px;
+	font-size: 22px;
 }
 
 .social {
