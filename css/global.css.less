@@ -46,13 +46,23 @@
 	padding-left:					@pl;
 }
 
+.borderbox-all(@paddingall: 5px) { 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* IE 8+ */
+	padding-top:					@paddingall;
+	padding-right:					@paddingall;
+	padding-bottom:					@paddingall;
+	padding-left:					@paddingall;
+}
+
 /* LAYOUT ETC ==========================*/
 
 body, input[type="text"], input[type="submit"] {
 	font-size: 14px;
 }
 
-body, h1.candidate, h2.candidate-personal, h2.candidate-political, h2.block-title, h3.plan, input[type="text"], input[type="submit"] {
+body, h3, h2, h1.candidate, h1.title, h2.candidate-personal, h2.candidate-political, h2.block-title, h3.plan, input[type="text"], input[type="submit"] {
   font-family: Calibri, sans-serif;
   letter-spacing: 0.00em;
 }
@@ -63,18 +73,22 @@ h1 {
   text-transform: uppercase;
 }
 
+h1.title {
+	font-size: 22px;
+}
+
 h2, h2.node-title {
-  font-size: 15px;
-  color: @rose-color;
-  text-transform: uppercase;
+	font-size: 15px;
+	color: @rose-color;
+	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
 h2.block-title, h2.candidate-personal, h2.candidate-political {
 	font-size: 17px;
-	color: @rose-color;
 }
 
-h2.candidate-personal, h2.candidate-political {
+h1.title {
 	margin-bottom: 10px;
 }
 
@@ -90,7 +104,7 @@ h3.plan {
 	width: (@stories-width - @commentcount-width - 10)
 }
 
-em {
+.article-date {
 	font-size: 12px;
     font-style: italic;
 }
@@ -244,7 +258,6 @@ ul.menu {
 
 /* BLOCKS */
 
-
 .block-title {
 	font-weight: bold;
 	font-size: 17px;
@@ -255,7 +268,7 @@ ul.menu {
 	padding: 0 8px 0 8px;
 }
 
-.date-display-single {
+.front .calendar .date {
 	margin-top: 5px;
 	border-bottom: 1px dashed #B0B0B0;
 	font-weight: normal;
@@ -409,41 +422,126 @@ h1.candidate {
 	padding: 0 13px 0 0;
 }
 
-.team_all {
-	background:url(../images/img_box.jpg) no-repeat;
+.framed-pictures {
+	background: url(../images/img_box.jpg) no-repeat;
 	width: 71px;
 	height: 77px;
 	padding: 7px;
 }
 
+.team_all {
+	.framed-pictures;
+}
+
+/* STORIES */
+
+.article-authors {
+	float: right;
+	display: inline-block;
+}
+
+.field-name-field-vote-up-down {
+	float: right;
+	.up-score {
+		padding-left: 0px;
+		padding-right: 9px;
+	}
+	.down-score {
+		padding-left: 8px;
+	}
+	.vote-current-score {
+		text-align: center;
+		padding-top: 5px;
+	}
+}
+
 /* ARBEJDSPROGRAM */
 .municipal {
-  .views-row {
-    padding:15px;
-    height:130px;
-    position:relative;
-    .border-radius(8px);
-    margin-bottom: 10px;
-  }
-  .views-row-odd {
-    background:#e5e5e5;
-  }
-  .views-row-even {
-    background:#aaaaaa;
-  }
-  .field-name-field-picture {
-    float:left;
-    display:block;
-    height:130px;
-    width:88px;
-    margin-right:10px;
-  }
-  .comment-count {
-    right:5px;
-  }
+	.views-row {
+		.borderbox-all(12px);
+    	height: 180px;
+    	width: 342px;
+    	position: relative;
+    	.border-radius(@cornerrounding);
+    	margin-bottom: 15px;
+    	overflow: hidden;
+	}
+	
+	h2.field-content {
+		margin-bottom: 5px;
+	}
+	
+	.views-row {
+
+		// Title
+  		.views-field-title {
+  			position: relative;
+			display: block;
+			left: 98px;
+			width: 190px;
+  		}
+  		
+		// Teaser text
+		.field-name-field-teaser {
+			position: relative;
+    		display: block;
+    		left: 98px;
+    		width: 210px;
+  		}
+
+		// Image
+		.field-name-field-picture {
+			position: absolute;
+			float: left;
+			display: inline-block;
+			height: 130px;
+			width: 88px;
+			margin-right: 10px;
+		}
+  	}
+  	
+	.views-row-odd {
+    	float: right;
+  	}
+  	
+  	// Right most boxes
+  	.views-row-1, .views-row-4, .views-row-5, .views-row-8 {
+  		background: #e5e5e5;
+  		.field-name-field-teaser {
+  			left: 98px;
+  		}
+  	}
+  	
+  	// Left most boxes
+  	.views-row-2, .views-row-3, .views-row-6, .views-row-7 {
+    	background: #aaaaaa;
+  	}
+  	
+  	// Handling two boxes where the full width og the box is needed for header
+  	.views-row-6, .views-row-8 {
+  		.views-field-title {
+  			position: relative;
+  			left: 0px;
+  			width: 270px;
+  		}
+  		.field-name-field-picture {
+  			margin-top: 30px;
+  		}
+  	}
+  
+	.comment-count {
+		top: 10px;
+		right: 5px;
+	}
 }
 
 /* COMMENTS */
+
+.comment-wrapper {
+	border-top-style: dashed;
+	border-top-color: @rose-color;
+	border-top-width: 2px;
+}
 
 article.comment {
   margin-bottom: 10px;
