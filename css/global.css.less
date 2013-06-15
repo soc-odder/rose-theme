@@ -40,20 +40,20 @@
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* IE 8+ */
-	padding-top:					@pt;
-	padding-right:					@pr;
-	padding-bottom:					@pb;
-	padding-left:					@pl;
+	padding-top: @pt;
+	padding-right: @pr;
+	padding-bottom: @pb;
+	padding-left: @pl;
 }
 
 .borderbox-all(@paddingall: 5px) { 
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* IE 8+ */
-	padding-top:					@paddingall;
-	padding-right:					@paddingall;
-	padding-bottom:					@paddingall;
-	padding-left:					@paddingall;
+	padding-top: @paddingall;
+	padding-right: @paddingall;
+	padding-bottom: @paddingall;
+	padding-left: @paddingall;
 }
 
 /* LAYOUT ETC ==========================*/
@@ -559,4 +559,9 @@ div#comments article:nth-child(odd) {
 
 div#comments article:nth-child(even) {
   background: #ddd;
+}
+
+/* POLL */
+.block-poll .content .links { /* Disable display of links under a poll */
+  display:none;
 }
