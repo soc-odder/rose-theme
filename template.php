@@ -44,13 +44,15 @@ function rose_preprocess_comment(&$variables) {
   if ($user_id > 0) {
     $user = user_load($user_id);
     $eid = $user->field_cand_author_ref[LANGUAGE_NONE][0]['target_id'];
-
     $ref = entity_load('node', array($eid));
     if ($ref[$eid]->type == 'kandidat') {
       $username = l($ref[$eid]->title, 'node/' . $eid);
     }
-    else {
+    elseif ($ref[$eid]->type == 'forfatter') {
       $username = $ref[$eid]->title;
+    }
+    else {
+      $username = $user->name;
     }
   }
   else {
