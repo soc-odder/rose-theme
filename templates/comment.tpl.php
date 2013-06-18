@@ -27,8 +27,4 @@
     <div class="user-signature"><?php print $signature ?></div>
   <?php endif; ?>
 
-  <?php if (!empty($content['links'])): ?>
-    <nav class="links comment-links clearfix"><?php print render($content['links']); ?></nav>
-  <?php endif; ?>
-
 </article>
