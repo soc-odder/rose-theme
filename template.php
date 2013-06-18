@@ -11,6 +11,9 @@
  * for more information on this topic.
  */
 
+ /**
+  * Implements hook_preprocess_page().
+  */
 function rose_preprocess_page(&$vars, $hook) {
   if (isset($vars['node'])) {
   // If the node type is "blog" the template suggestion will be "page--blog.tpl.php".
@@ -24,3 +27,15 @@ function rose_preprocess_page(&$vars, $hook) {
 function rose_form_comment_form_alter(&$form) {
   $form['author']['homepage']['#access'] = FALSE;
 }
+
+/**
+ * Implements hook_preprocess_comment().
+ */
+function rose_preprocess_comment(&$variables) {
+  $comment = $variables['elements']['#comment'];
+  $node = $variables['elements']['#node'];
+  $variables['created'] = format_date($comment->created, 'custom', 'j/n-Y G:i');
+
+  $variables['submitted'] = t('!username, !datetime', array('!username' => $variables['author'], '!datetime' => $variables['created']));
+}
+
