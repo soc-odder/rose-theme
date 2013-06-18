@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 /**
  * @file
@@ -16,4 +16,11 @@ function rose_preprocess_page(&$vars, $hook) {
   // If the node type is "blog" the template suggestion will be "page--blog.tpl.php".
    $vars['theme_hook_suggestions'][] = 'page__node__'. str_replace('_', '--', $vars['node']->type);
   }
+}
+
+/**
+ * Implements form_comment_form_alter().
+ */
+function rose_form_comment_form_alter(&$form) {
+  $form['author']['homepage']['#access'] = FALSE;
 }
