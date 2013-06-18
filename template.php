@@ -22,6 +22,13 @@ function rose_preprocess_page(&$vars, $hook) {
 }
 
 /**
+ * Implements hook_preprocess_node().
+ */
+function rose_preprocess_node(&$variables) {
+  unset($variables['links']['comment']['#links']['comment-add']);
+}
+
+/**
  * Implements form_comment_form_alter().
  */
 function rose_form_comment_form_alter(&$form) {
