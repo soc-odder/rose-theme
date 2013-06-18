@@ -39,10 +39,28 @@ function rose_form_comment_form_alter(&$form) {
  * Implements hook_preprocess_comment().
  */
 function rose_preprocess_comment(&$variables) {
+  $user_id = $variables['elements']['#comment']->uid;
+  
+  if ($user_id > 0) {
+    $user = user_load($user_id);
+    $eid = $user->field_cand_author_ref[LANGUAGE_NONE][0]['target_id'];
+
+    $ref = entity_load('node', array($eid));
+    if ($ref[$eid]->type == 'kandidat') {
+      $username = l($ref[$eid]->title, 'node/' . $eid);
+    }
+    else {
+      $username = $ref[$eid]->title;
+    }
+  }
+  else {
+    $username = $variables['author'];
+  }
+
   $comment = $variables['elements']['#comment'];
   $node = $variables['elements']['#node'];
   $variables['created'] = format_date($comment->created, 'custom', 'j/n-Y G:i');
 
-  $variables['submitted'] = t('!username, !datetime', array('!username' => $variables['author'], '!datetime' => $variables['created']));
+  $variables['submitted'] = t('!username, !datetime', array('!username' => $username, '!datetime' => $variables['created']));
 }
 
