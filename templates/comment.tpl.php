@@ -1,8 +1,5 @@
 <article<?php print $attributes; ?>>
   <header>
-    <?php if ($new): ?>
-      <em class="new"><?php print $new ?></em>
-    <?php endif; ?>
     <?php if (isset($unpublished)): ?>
       <em class="unpublished"><?php print $unpublished; ?></em>
     <?php endif; ?>
