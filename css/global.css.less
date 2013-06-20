@@ -460,85 +460,60 @@ h1.candidate {
 .banner-text {
   font: italic 18px/20px Calibri;
   color: #222221;
+  padding-right: 20px;
 }
 
 .municipal {
-  .views-row {
-    .borderbox-all(12px);
-      height: 180px;
-      width: 342px;
-      position: relative;
-      .border-radius(@cornerrounding);
-      margin-bottom: 15px;
-      overflow: hidden;
-  }
+  	.views-row {
+      	height: 100px;
+      	width: 342px;
+      	position: relative;
+      	margin-bottom: 10px;
+      	overflow: hidden;
+  	}
   
-  h2.field-content {
-    margin-bottom: 5px;
-  }
+  	h2.field-content {
+    	margin-bottom: 5px;
+  	}
   
-  .views-row {
-
-    // Title
-      .views-field-title {
-        position: relative;
-      display: block;
-      left: 98px;
-      width: 190px;
-      }
-      
-    // Teaser text
-    .field-name-field-teaser {
-      position: relative;
-        display: block;
-        left: 98px;
-        width: 210px;
-      }
-
-    // Image
-    .field-name-field-picture {
-      position: absolute;
-      float: left;
-      display: inline-block;
-      height: 130px;
-      width: 88px;
-      margin-right: 10px;
+	.views-row {
+		// Title
+		.policy-header {
+			font-size: 17px;
+			font-weight: bold;
+			text-transform: uppercase;
+			width: 268px;
+		}
+		
+		
+    	// Teaser text
+    	.field-name-field-teaser {
+      		position: relative;
+        	display: block;
+        	// Should be used if there's an image attached
+        	// left: 98px;
+        	width: 308px;
+      	}
+      	
+    	// Image
+    	.field-name-field-picture {
+      		position: absolute;
+      		float: left;
+      		display: inline-block;
+      		height: 130px;
+      		width: 88px;
+      		margin-right: 10px;
+    	}
     }
-    }
-    
-  .views-row-odd {
-      float: right;
-    }
-    
-    // Right most boxes
-    .views-row-1, .views-row-4, .views-row-5, .views-row-8 {
-      background: #e5e5e5;
-      .field-name-field-teaser {
-        left: 98px;
-      }
+    	
+	.views-row-odd {
+    	float: right;
     }
     
-    // Left most boxes
-    .views-row-2, .views-row-3, .views-row-6, .views-row-7 {
-      background: #aaaaaa;
-    }
-    
-    // Handling two boxes where the full width og the box is needed for header
-    .views-row-6, .views-row-8 {
-      .views-field-title {
-        position: relative;
-        left: 0px;
-        width: 270px;
-      }
-      .field-name-field-picture {
-        margin-top: 30px;
-      }
-    }
-  
-  .comment-count {
-    top: 10px;
-    right: 5px;
-  }
+	.comment-count {
+    	top: 0px;
+    	right: 20px;
+  	}
 }
 
 /* COMMENTS */
