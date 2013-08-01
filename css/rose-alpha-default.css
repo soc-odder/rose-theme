@@ -18,5 +18,5 @@
 }
 
 .sideright {
-  background: url("../images/sidebg.jpg") repeat-y scroll 0 0 / 100% auto transparent;
+  background: transparent repeat-y url(../images/sidebg.jpg);
 }
