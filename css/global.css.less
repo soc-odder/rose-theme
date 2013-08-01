@@ -59,13 +59,7 @@
 /* LAYOUT ETC ==========================*/
 
 body, input[type="text"], input[type="submit"] {
-  font-size: 16px;
-}
-
-.team_name {
   font-size: 14px;
-  padding-left: 5px;
-  line-height: 16px;
 }
 
 body, h3, h2, h1.candidate, h1.title, h2.candidate-personal, h2.candidate-political, h2.block-title, h3.plan, input[type="text"], input[type="submit"] {
@@ -90,13 +84,8 @@ h2, h2.node-title {
   margin-bottom: 10px;
 }
 
-h2.block-title {
+h2.block-title, h2.candidate-personal, h2.candidate-political {
   font-size: 17px;
-}
-
-h2.candidate-political, h2.candidate-personal {
-	font-size: 19px;
-	border-bottom: 1px dashed #B0B0B0;
 }
 
 h1.title {
@@ -135,8 +124,6 @@ a:link, a:visited {
   background-size: 100%;
   .borderbox(0, 0, 0, 0);
   margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* BRANDING */
@@ -154,6 +141,7 @@ img {
 .navigation {
   .border-radius(@cornerrounding, @cornerrounding, 0, 0);
   background:@rose-color;
+  height: 40px;
 }
 
 #main-menu li {
@@ -162,7 +150,7 @@ img {
   font-weight: bold;
   font-size: 17px;
   line-height: 40px;
-  padding: 0 34px;
+  padding: 0 30px;
   text-transform: uppercase;
   border-right: 2px solid #9E0112;
 }
@@ -260,13 +248,13 @@ ul.menu {
 
 .sideright {
   // For some reason this background setting isn't applied. It's been moved to -default.css
-    // background: url("../images/sidebg.jpg") repeat-y scroll 0 0 / 100% auto transparent;
-    display: block;
-    float: left;
-    height: 270px;
-    margin-bottom: 30px;
-    .borderbox(0px, 0px, 0px, 0px);
-    width: 220px;
+  // background: url("../images/sidebg.jpg") repeat-y scroll 0 0 / 100% auto transparent;
+  display: block;
+  float: left;
+  height: 270px;
+  margin-bottom: 30px;
+  .borderbox(0px, 0px, 0px, 0px);
+  width: 220px;
 }
 
 /* BLOCKS */
@@ -308,9 +296,9 @@ ul.menu {
 }
 
 .poll .vote-form .choices .title {
-    font-weight: normal;
-    font-style: italic;
-    padding-top: 5px;
+  font-weight: normal;
+  font-style: italic;
+  padding-top: 5px;
 }
 
 input[type="submit"] {
@@ -319,8 +307,8 @@ input[type="submit"] {
 }
 
 .form-item-choice {
-    margin: 14px 0 14px 0;
-    .borderbox(0, 8px, 0, 8px);
+  margin: 14px 0 14px 0;
+  .borderbox(0, 8px, 0, 8px);
 }
 
 ul.links {
@@ -399,7 +387,6 @@ ul.links li {
 /* LAYOUT FOR CANDIDATES */
 
 .candidate-banner {
-  font-size: 16px;
   background:url(../images/banner_bg.jpg) repeat-y;
 }
 
@@ -413,8 +400,8 @@ ul.links li {
 
 .banner_list {
   .borderbox(0, 20px, 0, 320px);
-  ul, ol {
-	padding-left: 15px;
+  .ul .ol {
+    padding-left: 15px;
   }
   // Trying to make sure the social icons and email address align with the bottom of the image
   height: 159px;
@@ -432,10 +419,6 @@ h1.candidate {
   .borderbox(27px, 0, 0, 0);
   line-height: 15px;
   font-size: 22px;
-}
-
-.field-name-field-my-focus ul {
-  padding-left: 15px;
 }
 
 .social {
@@ -485,56 +468,55 @@ h1.candidate {
 }
 
 .municipal {
-  	.views-row {
-      	height: 100px;
-      	width: 342px;
-      	position: relative;
-      	margin-bottom: 10px;
-      	overflow: hidden;
-  	}
-  
-  	h2.field-content {
-    	margin-bottom: 5px;
-  	}
-  
-	.views-row {
-		// Title
-		.policy-header {
-			font-size: 17px;
-			font-weight: bold;
-			text-transform: uppercase;
-			width: 268px;
-		}
-		
-		
-    	// Teaser text
-    	.field-name-field-teaser {
-      		position: relative;
-        	display: block;
-        	// Should be used if there's an image attached
-        	// left: 98px;
-        	width: 308px;
-      	}
-      	
-    	// Image
-    	.field-name-field-picture {
-      		position: absolute;
-      		float: left;
-      		display: inline-block;
-      		height: 130px;
-      		width: 88px;
-      		margin-right: 10px;
-    	}
+  .views-row {
+    height: 100px;
+    width: 342px;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  h2.field-content {
+    margin-bottom: 5px;
+  }
+
+  .views-row {
+    // Title
+    .policy-header {
+      font-size: 17px;
+      font-weight: bold;
+      text-transform: uppercase;
+      width: 268px;
     }
-    	
-	.views-row-odd {
-    	float: right;
+
+    // Teaser text
+    .field-name-field-teaser {
+      position: relative;
+      display: block;
+      // Should be used if there's an image attached
+      // left: 98px;
+      width: 308px;
     }
-    
-	.comment-count {
-    	top: 0px;
-    	right: 20px;
-  	}
+
+    // Image
+    .field-name-field-picture {
+      position: absolute;
+      float: left;
+      display: inline-block;
+      height: 130px;
+      width: 88px;
+      margin-right: 10px;
+    }
+  }
+
+  .views-row-odd {
+    float: right;
+  }
+
+  .comment-count {
+    top: 0px;
+    right: 20px;
+  }
 }
 
 /* COMMENTS */
