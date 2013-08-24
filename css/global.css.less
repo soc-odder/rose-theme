@@ -56,6 +56,12 @@
   padding-left: @paddingall;
 }
 
+.box-shadow(@horz_offset: 0px, @vert_offset: 0px, @blur_distance: 5px, @spread_distance: 5px, @color: #888) {
+  -moz-box-shadow: @horz_offset @vert_offset @blur_distance @spread_distance @color;
+  -webkit-box-shadow: @horz_offset @vert_offset @blur_distance @spread_distance @color;
+  box-shadow: @horz_offset @vert_offset @blur_distance @spread_distance @color;
+}
+
 /* LAYOUT ETC ==========================*/
 
 body, input[type="text"], input[type="submit"] {
@@ -68,7 +74,7 @@ body, input[type="text"], input[type="submit"] {
   line-height: 16px;
 }
 
-body, h3, h2, h1.candidate, h1.title, h2.candidate-personal, h2.candidate-political, h2.block-title, h3.plan, input[type="text"], input[type="submit"] {
+body, h3, h2, h1.candidate, h1.title, h2.candidate-personal, h2.candidate-political, h2.block-title, input[type="text"], input[type="submit"] {
   font-family: Calibri, sans-serif;
   letter-spacing: 0.00em;
 }
@@ -101,8 +107,8 @@ h2.block-title {
 }
 
 h2.candidate-political, h2.candidate-personal {
-	font-size: 19px;
-	border-bottom: 1px dashed #B0B0B0;
+  font-size: 19px;
+  border-bottom: 1px dashed #B0B0B0;
 }
 
 h1.title {
@@ -117,13 +123,15 @@ h3 {
 
 
 h3.plan {
+  font-family: Times New Roman, Calibri, sans-serif;
+  letter-spacing: 0.00em;
   margin-bottom: 0px;
   width: (@stories-width - @commentcount-width - 10)
 }
 
 .article-date {
   font-size: 12px;
-    font-style: italic;
+  font-style: italic;
 }
 
 a {
@@ -355,18 +363,9 @@ ul.links li {
 
 .plan a {
   font-weight: bold;
-  font-size: 17px;
+  font-size: 20px;
   color: black;
   line-height: 15px;
-}
-
-.plan h3 {
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 15px;
-  color: @rose-color;
-  margin-bottom: 5px;
-  text-transform: uppercase;
 }
 
 .comment-count {
@@ -385,6 +384,34 @@ ul.links li {
 
 .comment-count a {
   color: @rose-color;
+}
+
+/* STORIES ALL */
+
+h1.storytitle, h1.storytitle a {
+  font-family: Times New Roman, Calibri, sans-serif;
+  font-size: 22px;
+  color: black;
+  letter-spacing: 0.00em;
+  text-transform: none;
+  margin-bottom: 0px;
+  line-height: 15px;
+  padding-bottom: 10px;
+}
+
+.float-left-mix1 {
+  float: left;
+  margin: 0px 15px 0px 0px;
+}
+
+.allstories-row {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.allstories-content {
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #b0b0b0;
 }
 
 /* CANDIDATES FRONTPAGE */
@@ -425,6 +452,21 @@ ul.links li {
   height: 159px;
 }
 
+.profile_list {
+  .borderbox(0, 0, 0, 225px);
+  ul, ol {
+    padding-left: 30px;
+  }
+  // Trying to make sure the social icons and email address align with the bottom of the image
+  height: 210px;
+  border-bottom: 1px dotted #b0b0b0;
+}
+
+/*
+.leftpad-lists ul, .leftpad-lists ol {
+    padding-left: 15px;
+}
+*/
 .banner_right {
   float: left;
   display: block;
@@ -433,10 +475,15 @@ ul.links li {
   padding:0 0 0 20px;
 }
 
-h1.candidate {
-  .borderbox(27px, 0, 0, 0);
+h1.candidate, h1.candidate a {
+  .borderbox(0, 0, 0, 0);
   line-height: 15px;
   font-size: 22px;
+}
+
+// Special handling of candidate profile names on their individual profiles
+#singleprofile {
+  .borderbox(27px, 0, 0, 0);
 }
 
 .field-name-field-my-focus ul {
@@ -448,8 +495,13 @@ h1.candidate {
   padding: 0 13px 0 0;
 }
 
+.shadowed-box7 {
+  .box-shadow(0px, 0px, 7px, 0px);
+}
+
+
 .framed-pictures {
-  background: url(../images/img_box.jpg) no-repeat;
+  background: url(../images/img_box.jpg); // no-repeat;
   width: 71px;
   height: 77px;
   padding: 7px;
@@ -540,6 +592,33 @@ h1.candidate {
     right: 20px;
   }
 }
+
+/* CALENDAR */
+
+thead {
+  font-weight: bold;
+}
+
+.fix-width-10 {
+  width: 10%;
+}
+
+.fix-width-15 {
+  width: 15%;
+}
+
+.fix-width-20 {
+  width: 20%;
+}
+
+.fix-width-50 {
+  width: 50%;
+}
+
+.fix-width-70 {
+  width: 70%;
+}
+
 
 /* COMMENTS */
 
