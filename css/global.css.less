@@ -307,7 +307,7 @@ ul.menu {
   color: white;
 }
 
-.front .calendar, .front .poll {
+.front .calendar, .front .poll, .front .newsletter {
   .border-radius-all(@cornerrounding);
   .borderbox(0, 0, 8px, 0);
   background: @block-background;
@@ -315,9 +315,15 @@ ul.menu {
   margin-bottom: 20px;
 }
 
-.front .calendar .view-content, .front .poll .poll {
+.front .calendar .view-content, .front .poll .poll, form#webform-client-form-58 {
   .borderbox(0px, 8px, 0px, 8px);
   .border-radius-all(0px);
+}
+
+// Aimed at the newsletter block
+.form-item, .form-actions {
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
 }
 
 .poll .vote-form .choices .title {
