@@ -209,12 +209,13 @@ ul.menu {
 /* SEARCH BOX */
 
 #block-search-form {
-  border:1px solid #cdcdcd;
-  height:27px;
-  .borderbox(0, 0, 0, 4px);
+  border:2px solid #cdcdcd;
+  height:29px;
+  .borderbox(0, 0, 0, 2px);
   width:220px;
   .border-radius-all(@cornerrounding);
   background:#ffffff;
+  margin-top: 37px;
 }
 
 #block-search-form .form-type-textfield {
@@ -228,11 +229,19 @@ ul.menu {
   outline: none;
   margin-left: 0px;
   border: none;
+  height: 20px;
+}
+
+#block-search-form .form-type-textfield input:active,
+#block-search-form .form-type-textfield input:focus {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 #block-search-form .form-actions input {
   background: none repeat scroll 0 0 #9C9B9B;
-  .border-radius(0, (@cornerrounding - 1), 0, (@cornerrounding - 1));
+  .border-radius(0, (@cornerrounding - 2), 0, (@cornerrounding - 2));
   color: #FFFFFF;
   display: block;
   float: right;
