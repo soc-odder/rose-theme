@@ -68,9 +68,9 @@ body, input[type="text"], input[type="submit"] {
   font-size: 16px;
 }
 
-.pic_subtitle {
-  font-size: 14px;
-  padding-left: 5px;
+.candidate-subtitle {
+  font-size: 15px;
+  padding-left: 6px;
   line-height: 16px;
 }
 
@@ -257,6 +257,20 @@ ul.menu {
   .borderbox(0, 4px, 0, 0);
 }
 
+/* SEARCH RESULT */
+.search-info, #edit-advanced {
+  display: none;
+}
+
+li.search-result {
+  border-top: 1px dotted #b0b0b0;
+}
+
+h1.title#page-title {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
 /* FOOTER */
 
 .footer {
@@ -435,12 +449,13 @@ h1.storytitle, h1.storytitle a {
   float: left;
   display: block;
   width: 95px;
-  height: 118px;
+  height: 110px;
   margin: 10px 0 0 0;
 }
 
 .teamlist.views-row-1 {
   width: 100%;
+  height: 95px;
 }
 
 /* LAYOUT FOR CANDIDATES */
@@ -472,7 +487,6 @@ h1.storytitle, h1.storytitle a {
   ul, ol {
     padding-left: 30px;
   }
-  // Trying to make sure the social icons and email address align with the bottom of the image
   height: 210px;
   border-bottom: 1px dotted #b0b0b0;
 }
@@ -509,16 +523,32 @@ h1#bannerheader {
   .box-shadow(0px, 0px, 7px, 0px);
 }
 
-
 .framed-pictures {
-  background: url(../images/img_box.jpg); // no-repeat;
-  width: 71px;
+  background: url(../images/img_box.jpg) no-repeat;
+  width: 80px;
   height: 77px;
   padding: 7px;
 }
 
 .team_all {
   .framed-pictures;
+}
+
+.mayor {
+  background: url(../images/img_box.jpg) no-repeat;
+  width: 350px;
+  height: 77px;
+  padding: 7px;
+}
+
+div.mayor img {
+  float: left;
+}
+
+.mayor-subtitle {
+  .candidate-subtitle;
+  padding-left: 80px;
+  padding-top: 43px;
 }
 
 /* STORIES */
