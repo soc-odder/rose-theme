@@ -686,7 +686,12 @@ div#comments>article:nth-of-type(even) {
   background: #ddd;
 }
 
-/* POLL */
+// Removing the add comment button above comments
+div nav ul li.comment-add {
+  display: none;
+} 
+
+/* POLL AND VOTING */
 .block-poll .content .links { /* Disable display of links under a poll */
   display:none;
 }
@@ -694,4 +699,8 @@ div#comments>article:nth-of-type(even) {
 /* Fixes https://github.com/soc-odder/soc_odder-deploy/issues/26 */
 .region {
   min-height: 1px;
+}
+
+p.voted-how {
+  display: none;
 }
