@@ -434,13 +434,11 @@ h1.storytitle, h1.storytitle a {
 }
 
 .allstories-row {
-  margin-bottom: 10px;
-  margin-top: 20px;
-}
-
-.allstories-content {
-  padding-bottom: 15px;
   border-bottom: 1px dotted #b0b0b0;
+  margin-bottom: 10px;
+  // margin-top: 20px;
+  position: relative;
+  padding: 15px 0 10px 0;
 }
 
 /* CANDIDATES FRONTPAGE */
@@ -487,8 +485,7 @@ h1.storytitle, h1.storytitle a {
   ul, ol {
     padding-left: 30px;
   }
-  height: 210px;
-  border-bottom: 1px dotted #b0b0b0;
+  height: 200px;
 }
 
 .banner_right {
@@ -588,43 +585,37 @@ div.mayor img {
 
 .municipal {
   .views-row {
-    height: 100px;
     width: 342px;
     position: relative;
-    margin-bottom: 10px;
-    overflow: hidden;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    height: 220px;
+  }
+  
+  img {
+    margin-left: 3px;
   }
 
   h2.field-content {
-    margin-bottom: 5px;
+    //margin-bottom: 5px;
   }
 
   .views-row {
     // Title
-    .policy-header {
-      font-size: 17px;
+    h2.policy-header {
+      font-size: 19px;
       font-weight: bold;
       text-transform: uppercase;
       width: 268px;
+      margin-bottom: 5px;
+      margin-top: 5px;
     }
 
     // Teaser text
     .field-name-field-teaser {
       position: relative;
       display: block;
-      // Should be used if there's an image attached
-      // left: 98px;
       width: 308px;
-    }
-
-    // Image
-    .field-name-field-picture {
-      position: absolute;
-      float: left;
-      display: inline-block;
-      height: 130px;
-      width: 88px;
-      margin-right: 10px;
     }
   }
 
@@ -633,8 +624,8 @@ div.mayor img {
   }
 
   .comment-count {
-    top: 0px;
-    right: 20px;
+    top: 100px;
+    right: 28px;
   }
 }
 
